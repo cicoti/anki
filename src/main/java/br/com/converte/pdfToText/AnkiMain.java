@@ -1,23 +1,19 @@
 package br.com.converte.pdfToText;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.text.PDFTextStripper;
-import org.apache.pdfbox.text.PDFTextStripperByArea;
 import org.apache.pdfbox.text.TextPosition;
-import org.apache.pdfbox.util.Vector;
 
-public class TesteMain {
+public class AnkiMain {
 
 	public static void main(String[] args) throws IOException {
 
 
-		String indice = "07";
+		String indice = "05";
 		String path = "C:\\Projetos\\automatizaranki\\The Boy Who Flew Too High\\";
 		String pathAudio = "The Boy Who Flew "+indice+" Audios para o Anki\\The Boy Who Flew "+indice+" Audios Anki\\";
 		String filePDFName = "PDF The Boy who Flew too High "+indice+".pdf";
@@ -126,13 +122,6 @@ public class TesteMain {
 				 
 				 Anki a = listaTextoAnki.get(i);
 				 
-				// System.out.println(a.getArquivoAudioIngles());
-				 
-	/*			 for(String texto : a.getBlocos()) {
-					 System.out.println(texto);
-				 }
-				 System.out.println("--------");*/
-				 
 				 if (a.getBlocos().size() % 2 == 0) {
 				  
 					 String textoIngles = "";
@@ -156,10 +145,28 @@ public class TesteMain {
 					 a.setTextoPortugues(textoPortugues);
 				  
 				} else {
+				  
+					String textoIngles = "";
+					String textoPortugues = "";
+					
+					if( a.getBlocos().get(1).length() < a.getBlocos().get(2).length()) {
 
-				   //ÍMPAR  
+						textoIngles = a.getBlocos().get(0).concat(a.getBlocos().get(1));
+						textoPortugues = a.getBlocos().get(2);
+						
+					}else {
+									
+						textoIngles = a.getBlocos().get(0);
+						textoPortugues = a.getBlocos().get(1).concat(a.getBlocos().get(2));
+						
+						
+					}
+					
+					a.setTextoIngles(textoIngles);
+					a.setTextoPortugues(textoPortugues);
 				}
 				 
+			 System.out.println("Audio: " + a.getArquivoAudioIngles());	 
 			 System.out.println("Texto Ingles:" + a.getTextoIngles());
 			 System.out.println("Texto Portugues:" + a.getTextoPortugues());
 			 System.out.println("--------");
