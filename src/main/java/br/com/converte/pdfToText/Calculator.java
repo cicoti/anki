@@ -8,13 +8,19 @@ package br.com.converte.pdfToText;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
 import org.openqa.selenium.winium.DesktopOptions;
 import org.openqa.selenium.winium.WiniumDriver;
+import org.openqa.selenium.winium.WiniumDriverService;
 
 public class Calculator {
+	
+	DesktopOptions options;
+	WiniumDriverService service;
+	WiniumDriver driver;
 	
 	public static void main(String args[]) throws InterruptedException, IOException {
 		
@@ -23,14 +29,25 @@ public class Calculator {
 		calculator.calcAddition();
 		calculator.setUp();
 		calculator.calcMultiply();
+		calculator.tearDown();
+		
 		
 	}
-	
-    public DesktopOptions options = new DesktopOptions();
-
-    public void setUp() throws InterruptedException, IOException {
-        options.setApplicationPath("C:\\Windows\\System32\\calc.exe");
-    }
+    
+    public void setUp(){
+		options = new DesktopOptions();
+		options.setApplicationPath("C:\\Windows\\System32\\calc.exe");
+		//File driverPath = new File("D:\\silvio\\projetos\\AutomatizarAnki\\Winium.Desktop.Driver.exe");
+		File driverPath = new File("..\\Winium.Desktop.Driver.exe");
+		service = new WiniumDriverService.Builder().usingDriverExecutable(driverPath).usingPort(9999).withVerbose(true).withSilent(false).buildDesktopService();
+		try {
+			service.start();
+		} catch (IOException e) {
+			System.out.println("Exception while starting WINIUM service");
+			e.printStackTrace();
+		}
+		driver = new WiniumDriver(service,options);
+	}
 
     public void calcAddition() throws InterruptedException, IOException {
         WiniumDriver driver = new WiniumDriver(new URL("http://localhost:9999"), options);
@@ -57,5 +74,11 @@ public class Calculator {
         SECONDS.sleep(3);
         driver.findElementById("Close").click();
     }
+
+    public void tearDown() {
+    	driver.close();
+    	service.stop();
+    }
+    
 
 }
