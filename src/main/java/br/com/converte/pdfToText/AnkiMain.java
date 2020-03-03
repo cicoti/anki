@@ -13,7 +13,7 @@ public class AnkiMain {
 	public static void main(String[] args) throws IOException, InterruptedException {
 
 
-		String indice = "05";
+		String indice = "07";
 		String path = "C:\\Projetos\\automatizaranki\\The Boy Who Flew Too High\\";
 		String pathAudio = "The Boy Who Flew "+indice+" Audios para o Anki\\The Boy Who Flew "+indice+" Audios Anki\\";
 		String filePDFName = "PDF The Boy who Flew too High "+indice+".pdf";
