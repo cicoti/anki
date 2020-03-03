@@ -20,7 +20,7 @@ import org.openqa.selenium.winium.DesktopOptions;
 import org.openqa.selenium.winium.WiniumDriver;
 import org.openqa.selenium.winium.WiniumDriverService;
 
-public class AnkiAuto {
+public class AnkiAutoOld {
 	
 	DesktopOptions options;
 	WiniumDriverService service;
@@ -28,7 +28,7 @@ public class AnkiAuto {
 	
 	public static void main(String args[]) throws InterruptedException, IOException, AWTException {
 		
-		AnkiAuto ankiAuto = new AnkiAuto();
+		AnkiAutoOld ankiAuto = new AnkiAutoOld();
 		ankiAuto.setUp();
 		ankiAuto.baralho();
 		//ankiAuto.tearDown();

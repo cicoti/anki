@@ -1,55 +1,38 @@
 package br.com.converte.pdfToText;
+
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
+import java.io.File;
+
 public class AnkiRobot {
- public static void main(String args[]) {
-	 
-	boolean isFinish = false; 
-	 
-	while (!isFinish) {
+	
+	Robot robot = null;
+	int mask = InputEvent.BUTTON1_DOWN_MASK;
+	Anki anki = null;
+	
+	public AnkiRobot() throws InterruptedException {
 		
-		  try {
-			  Thread.sleep(5000);
-		  } catch (Exception e) {
-			  
-		  }
-		
-		 Robot robot = null;
-		 int mask = InputEvent.BUTTON1_DOWN_MASK;
-		   
 		 try {
 			 robot = new Robot();
 		  } catch (Exception failed) {
 		   System.err.println("Failed instantiating Robot: " + failed);
 		  }  
-	  		  		  
-
-	 
-		  try {
-			  Thread.sleep(5000);
-		  } catch (Exception e) {
-			  
-		  }
-					  	  
-		  
-		  /* #1 */
-		  
-		  		  
-		  robot.mouseMove(0,0);
-		  
-		 /* try {
-			  Thread.sleep(3000);
-		  } catch (Exception e) {
-			  
-		  }*/
+		
+	}
+	
+	public void abrirAplicacao() throws InterruptedException {
+		
+		Thread.sleep(5000);
+		
+		 robot.mouseMove(0,0);
+		 robot.delay(1000);
 		 
-		  robot.delay(1000);
-		  robot.mouseMove(109, 343);	
-		  robot.delay(1000);
+		 robot.mouseMove(109, 343);	
+		 robot.delay(1000);
 		  
 		 // first click
 		 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
@@ -58,12 +41,17 @@ public class AnkiRobot {
 		 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		 robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		 
-		 try {
-			  Thread.sleep(5000);
-		  } catch (Exception e) {
-			  
-		  }
+		 Thread.sleep(5000);
 		 
+		 this.baralho();
+		 this.menuAdicionar();
+					 
+		 
+	}
+	
+	protected void baralho() {
+		
+		// click no nome do baralho.
 		 robot.delay(1000);
 		 robot.mouseMove(1500, 215);	
 		 robot.delay(1000);
@@ -75,33 +63,38 @@ public class AnkiRobot {
 		 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		 robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		 
-		 robot.delay(1000);
-		 robot.mouseMove(1500, 120);	
-		 robot.delay(1000);
-		  
-		 // first click
-		 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-		 robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		 
+		
+	}
+	
+	protected void menuAdicionar() {
+		
+		// click em adicionar.
+		robot.delay(1000);
+		robot.mouseMove(1500, 120);	
+		robot.delay(1000);
+		  
+		// first click
+		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+		
+	}
+	
+	public void fraseIngles(String fraseIngles) {
+		
 		 robot.delay(1000);
 		 robot.mouseMove(1500, 315);	
 		 robot.delay(1000);
-		  
-		 // ingles
+		 
 		 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		 robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		 
-		 String text = "Do not fly too low or your wings will get wet from the waves,";
-		 StringSelection stringSelection = new StringSelection(text);
-		 Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		 clipboard.setContents(stringSelection, stringSelection);
-
-		 robot.keyPress(KeyEvent.VK_CONTROL);
-		 robot.keyPress(KeyEvent.VK_V);
-		 robot.keyRelease(KeyEvent.VK_V);
-		 robot.keyRelease(KeyEvent.VK_CONTROL);
-
-		 // audio
+		 copiarColar(fraseIngles);
+	
+	}
+	
+	public void audioIngles(File caminhoArquivo) {
+		
 		 robot.delay(1000);
 		 
 		 robot.keyPress(KeyEvent.VK_F3);
@@ -109,15 +102,7 @@ public class AnkiRobot {
 		 robot.mouseMove(1363, 643);	
 		 robot.delay(1000);
 		 
-		 text = "C:\\Projetos\\automatizaranki\\The Boy Who Flew Too High\\The Boy Who Flew 05 Audios para o Anki\\The Boy Who Flew 05 Audios Anki\\48 Do not fly.mp3";
-		 stringSelection = new StringSelection(text);
-		 clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		 clipboard.setContents(stringSelection, stringSelection);
-
-		 robot.keyPress(KeyEvent.VK_CONTROL);
-		 robot.keyPress(KeyEvent.VK_V);
-		 robot.keyRelease(KeyEvent.VK_V);
-		 robot.keyRelease(KeyEvent.VK_CONTROL);
+		 copiarColar(caminhoArquivo.getAbsolutePath());
 		 
 		 robot.delay(1000);
 		 robot.mouseMove(1750, 670);	
@@ -126,27 +111,27 @@ public class AnkiRobot {
 		 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		 robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		 
-		 // portugues
-		 
+		 robot.delay(3000);
+	
+	}
+	
+	public void frasePortugues(String frasePortugues) {
+		
 		 robot.delay(1000);
-		 robot.mouseMove(1500, 415);	
+		 robot.mouseMove(1500, 410);	
 		 robot.delay(1000);
 		 
 		 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		 robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+		
+		 copiarColar(frasePortugues);
 		 
-		 text = "Não voe muito baixo ou suas asas ficarão molhadas com as ondas,";
-		 stringSelection = new StringSelection(text);
-		 clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		 clipboard.setContents(stringSelection, stringSelection);
-
-		 robot.keyPress(KeyEvent.VK_CONTROL);
-		 robot.keyPress(KeyEvent.VK_V);
-		 robot.keyRelease(KeyEvent.VK_V);
-		 robot.keyRelease(KeyEvent.VK_CONTROL);
-		 
-		 // adicionar
-		 
+		 this.adicionarCartao();
+		
+	}
+	
+	protected void adicionarCartao() {
+		
 		 robot.delay(1000);
 		 robot.mouseMove(1555, 755);	
 		 robot.delay(1000);
@@ -154,14 +139,50 @@ public class AnkiRobot {
 		 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		 robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		 
-		  
-		  isFinish = true;
-				      
-	}	  
-		  
- }
- 
- 
- 
- 
+		 robot.delay(1000);
+	
+	}
+	
+	public void fecharAdicionar() {
+		
+		robot.delay(1000);
+		robot.mouseMove(1555, 756);	
+		robot.delay(1000);
+		 
+		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+		 
+		robot.delay(1000);
+				
+	}
+	
+	public void fecharAplicacao() {
+		
+		robot.delay(1000);
+		robot.mouseMove(1831, 70);	
+		robot.delay(1000);
+		 
+		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+		 
+		robot.delay(1000);
+				
+	}
+	
+	public void copiarColar(String frase) {
+		 
+		 StringSelection stringSelection = new StringSelection(frase);
+		 Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		 clipboard.setContents(stringSelection, stringSelection);
+
+		 robot.keyPress(KeyEvent.VK_CONTROL);
+		 robot.keyPress(KeyEvent.VK_V);
+		 robot.keyRelease(KeyEvent.VK_V);
+		 robot.keyRelease(KeyEvent.VK_CONTROL);
+		 
+		 robot.delay(1000);
+		
+	}
+		
+	
 }

@@ -8,7 +8,9 @@ package br.com.converte.pdfToText;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
+import java.awt.AWTException;
 import java.awt.Rectangle;
+import java.awt.Robot;
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -20,6 +22,7 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.internal.Coordinates;
+import org.openqa.selenium.internal.Locatable;
 import org.openqa.selenium.remote.RemoteMouse;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.winium.DesktopOptions;
@@ -32,7 +35,7 @@ public class Calculator {
 	WiniumDriverService service;
 	WiniumDriver driver;
 	
-	public static void main(String args[]) throws InterruptedException, IOException {
+	public static void main(String args[]) throws InterruptedException, IOException, AWTException {
 		
 		Calculator calculator = new Calculator();
 		calculator.setUp();
@@ -44,7 +47,7 @@ public class Calculator {
 		
 	}
 	
-	public void posicionar() throws InterruptedException, MalformedURLException {
+	public void posicionar() throws InterruptedException, MalformedURLException, AWTException {
 		
 		WiniumDriver driver = new WiniumDriver(new URL("http://localhost:9999"), options);
         SECONDS.sleep(2);
@@ -55,13 +58,28 @@ public class Calculator {
 		System.out.println(dimension.getWidth());
 
 		
-		 WebElement el = driver.findElementById("num8Button");
-	     Coordinates c = ( (RemoteWebElement) el).getCoordinates();
-		/*
+		//driver.findElementById("num8Button").click();
+		
+		Point coordinates = driver.findElement(By.id("num8Button")).getLocation();
+		Robot robot = new Robot();
+		WebElement markNews = driver.findElement(By.id("num8Button"));
+		markNews.click();
+		robot.mouseMove(coordinates.x,coordinates.y+80);
+
+
+		//Read more: https://softwaretestingboard.com/q2a/870/move-mouse-cursor-given-position-using-selenium-webdriver#ixzz6FeDiSckT
+		
+		
+	     
+	 //    Point point = c.onPage();
+	     
+    // System.out.println((((Locatable) el).c().onPage()).getX());
+	     
+	     /*
 		 * Point point = c.inViewPort(); System.out.println(point.getX() + " " +
 		 * point.getY());
 		 */
-	     driver.getMouse().mouseMove(c);
+	     //driver.getMouse().mouseMove(c);
 		
 		//WebElement webElement = driver.findElement(By.id("num8Button"));
         

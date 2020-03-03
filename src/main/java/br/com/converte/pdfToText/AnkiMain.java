@@ -10,7 +10,7 @@ import org.apache.pdfbox.text.TextPosition;
 
 public class AnkiMain {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, InterruptedException {
 
 
 		String indice = "05";
@@ -116,7 +116,9 @@ public class AnkiMain {
 		            listaTextoAnki.add(anki);
 		
 		    }
-			 
+
+			 AnkiRobot ankiRobot = new AnkiRobot();
+			 ankiRobot.abrirAplicacao();	
 			 
 			 for(int i = 0; i < listaTextoAnki.size();i++) {
 				 
@@ -166,14 +168,21 @@ public class AnkiMain {
 					a.setTextoPortugues(textoPortugues);
 				}
 				 
-			 System.out.println("Audio: " + a.getArquivoAudioIngles());	 
-			 System.out.println("Texto Ingles:" + a.getTextoIngles());
-			 System.out.println("Texto Portugues:" + a.getTextoPortugues());
-			 System.out.println("--------");
+				 
+				 ankiRobot.fraseIngles(a.getTextoIngles());
+				 ankiRobot.audioIngles(a.getArquivoAudioIngles());
+				 ankiRobot.frasePortugues(a.getTextoPortugues());
+				 
+				 System.out.println("Audio: " + a.getArquivoAudioIngles());	 
+				 System.out.println("Texto Ingles:" + a.getTextoIngles());
+				 System.out.println("Texto Portugues:" + a.getTextoPortugues());
+				 System.out.println("--------");
 				 
 			 }
-			
-			
+			 
+			 ankiRobot.fecharAdicionar();
+			 ankiRobot.fecharAplicacao();
+						
 		}
 		
 		
