@@ -8,10 +8,20 @@ package br.com.converte.pdfToText;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
+import java.awt.Rectangle;
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.List;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.internal.Coordinates;
+import org.openqa.selenium.remote.RemoteMouse;
+import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.winium.DesktopOptions;
 import org.openqa.selenium.winium.WiniumDriver;
 import org.openqa.selenium.winium.WiniumDriverService;
@@ -26,12 +36,40 @@ public class Calculator {
 		
 		Calculator calculator = new Calculator();
 		calculator.setUp();
-		calculator.calcAddition();
-		calculator.setUp();
-		calculator.calcMultiply();
+		calculator.posicionar();
+		//calculator.calcAddition();
+		//calculator.setUp();
+		//calculator.calcMultiply();
 		calculator.tearDown();
 		
+	}
+	
+	public void posicionar() throws InterruptedException, MalformedURLException {
 		
+		WiniumDriver driver = new WiniumDriver(new URL("http://localhost:9999"), options);
+        SECONDS.sleep(2);
+        //driver.findElementById("num8Button").click();
+		//org.openqa.selenium.Rectangle rectangle = driver.findElementById("num8Button").getRect();
+        Dimension dimension = driver.findElement(By.id("num8Button")).getSize();
+        System.out.println(dimension.getHeight());
+		System.out.println(dimension.getWidth());
+
+		
+		 WebElement el = driver.findElementById("num8Button");
+	     Coordinates c = ( (RemoteWebElement) el).getCoordinates();
+		/*
+		 * Point point = c.inViewPort(); System.out.println(point.getX() + " " +
+		 * point.getY());
+		 */
+	     driver.getMouse().mouseMove(c);
+		
+		//WebElement webElement = driver.findElement(By.id("num8Button"));
+        
+		/*
+		 * Point point = webElement.getLocation(); System.out.println(point.getX());
+		 * System.out.println(point.getY());
+		 */
+        
 	}
     
     public void setUp(){
