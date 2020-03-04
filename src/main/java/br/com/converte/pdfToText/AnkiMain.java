@@ -12,11 +12,21 @@ public class AnkiMain {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 
-
-		String indice = "07";
-		String path = "C:\\Projetos\\automatizaranki\\The Boy Who Flew Too High\\";
-		String pathAudio = "The Boy Who Flew "+indice+" Audios para o Anki\\The Boy Who Flew "+indice+" Audios Anki\\";
+		/*
+		// MODULO - 5
+		String indice = "01"; // Até 07
+		String path = "C:\\CursoInglesMairoVergara\\5 - The Boy Who Flew Too High\\";
+		String pathAudio = "The Boy Who Flew "+indice+" Audios Anki\\";
 		String filePDFName = "PDF The Boy who Flew too High "+indice+".pdf";
+		*/
+		
+		// MODULO - 6
+		String indice = "01"; // Até 08
+		String path = "C:\\CursoInglesMairoVergara\\6 - The Bell of Atri\\";
+		String pathAudio = "The Bell of Atri "+indice+" Audios Anki\\"; 
+		String filePDFName = "PDF The Bell of Atri "+indice+".pdf";
+				
+		
 		String lines[] = null;
 		String token = "";
 		File dirAudioFiles = new File(path.concat(pathAudio));

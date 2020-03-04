@@ -45,7 +45,7 @@ public class AnkiRobot {
 		 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		 robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		 
-		 Thread.sleep(5000);
+		 Thread.sleep(8000);
 		 
 		 this.baralho();
 		 this.menuAdicionar();
@@ -55,9 +55,13 @@ public class AnkiRobot {
 	
 	protected void baralho() {
 		
+		// baralho V2
 		// click no nome do baralho.
-		 //robot.delay(1000);
-		 //robot.mouseMove(1500, 215);	
+		//robot.delay(1000);
+		//robot.mouseMove(1500, 215);	
+		
+		// baralho master
+		// click no nome do baralho.
 		robot.mouseMove(1500, 195);	
 		robot.delay(1000);
 		  
@@ -123,7 +127,7 @@ public class AnkiRobot {
 	
 	public void frasePortugues(String frasePortugues) {
 		
-		 //robot.delay(1000);
+		 /*
 		 robot.mouseMove(1500, 410);	
 		 Color pixelColor = robot.getPixelColor(1500, 410);
 		 boolean isBlanc = false;
@@ -149,10 +153,13 @@ public class AnkiRobot {
 		 
 		 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		 robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+		 */
 		
-		 copiarColar(frasePortugues);
+		robot.keyPress(KeyEvent.VK_TAB);
+		
+		copiarColar(frasePortugues);
 		 
-		 this.adicionarCartao();
+		this.adicionarCartao();
 		
 	}
 	
