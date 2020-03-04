@@ -1,5 +1,6 @@
-package br.com.converte.pdfToText;
+package br.com.anki;
 
+import java.awt.AWTException;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -8,9 +9,9 @@ import java.util.List;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.TextPosition;
 
-public class AnkiMain {
+public class AnkiAutoMain {
 
-	public static void main(String[] args) throws IOException, InterruptedException {
+	public static void main(String[] args) throws IOException, InterruptedException, AWTException {
 
 		/*
 		// MODULO - 5
@@ -127,9 +128,8 @@ public class AnkiMain {
 		
 		    }
 
-			 AnkiRobot ankiRobot = new AnkiRobot();
-			 ankiRobot.abrirAplicacao();	
-			 
+			 AnkiAuto ankiAuto = new AnkiAuto();
+			 			 
 			 for(int i = 0; i < listaTextoAnki.size();i++) {
 				 
 				 Anki a = listaTextoAnki.get(i);
@@ -179,10 +179,10 @@ public class AnkiMain {
 				}
 				 
 				 
-				 ankiRobot.fraseIngles(a.getTextoIngles());
-				 ankiRobot.audioIngles(a.getArquivoAudioIngles());
-				 ankiRobot.frasePortugues(a.getTextoPortugues());
-				 
+				 ankiAuto.fraseIngles(a.getTextoIngles().concat(" "));
+				 ankiAuto.audioIngles(a.getArquivoAudioIngles());
+				 ankiAuto.frasePortugues(a.getTextoPortugues().concat(" "));
+				 				 
 				 System.out.println("Audio: " + a.getArquivoAudioIngles());	 
 				 System.out.println("Texto Ingles:" + a.getTextoIngles());
 				 System.out.println("Texto Portugues:" + a.getTextoPortugues());
@@ -190,12 +190,12 @@ public class AnkiMain {
 				 
 			 }
 			 
-			 ankiRobot.fecharAdicionar();
-			 ankiRobot.fecharAplicacao();
-						
+			 ankiAuto.fecharAplicacao();
+			 ankiAuto.tearDown();
+			 
 		}
 		
-		
+	
 	}
 	
 	

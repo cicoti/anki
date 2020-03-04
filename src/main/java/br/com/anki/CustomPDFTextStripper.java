@@ -1,4 +1,4 @@
-package br.com.converte.pdfToText;
+package br.com.anki;
 
 import java.io.IOException;
 import java.util.List;
