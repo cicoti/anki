@@ -21,12 +21,13 @@ public class AnkiAutoMain {
 		String filePDFName = "PDF The Boy who Flew too High "+indice+".pdf";
 		*/
 		
+		
 		// MODULO - 6
 		String indice = "01"; // Até 08
 		String path = "C:\\CursoInglesMairoVergara\\6 - The Bell of Atri\\";
 		String pathAudio = "The Bell of Atri "+indice+" Audios Anki\\"; 
 		String filePDFName = "PDF The Bell of Atri "+indice+".pdf";
-				
+			
 		
 		String lines[] = null;
 		String token = "";

@@ -80,14 +80,19 @@ public class AnkiAuto {
         Thread.sleep(8000);
         
         // baralho master
+        robot.keyPress(KeyEvent.VK_TAB);
+        Thread.sleep(1000);
         
+        /*
         // baralho v2
         robot.keyPress(KeyEvent.VK_TAB);
         Thread.sleep(1000);
         
         robot.keyPress(KeyEvent.VK_TAB);
         Thread.sleep(1000);
-        
+        */  
+                
+        // Executar baralho
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
