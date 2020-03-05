@@ -31,7 +31,7 @@ public class TesteAnkiAuto {
 		 
 		 ankiAuto.tearDown();
 		
-	}
+	}		
     
 
 }

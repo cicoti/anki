@@ -43,15 +43,16 @@ public class AnkiAuto {
 				
 	}
 	
-    public void setUp() throws MalformedURLException{
+    public void setUp() throws IOException, InterruptedException{
 		
+    	this.tearDown();
+    	
     	options = new DesktopOptions();
 		options.setApplicationPath("C:\\Program Files (x86)\\Anki\\anki.exe");
 		
 		//File driverPath = new File("C:\\Projetos\\automatizaranki\\Winium.Desktop.Driver.exe");
 		File driverPath = new File("..\\Winium.Desktop.Driver.exe");
 		service = new WiniumDriverService.Builder().usingDriverExecutable(driverPath).usingPort(9999).withVerbose(true).withSilent(false).buildDesktopService();
-		
 		
 		try {
 			service.start();
@@ -77,25 +78,23 @@ public class AnkiAuto {
     
     protected void baralho() throws InterruptedException, IOException, AWTException {
     	WiniumDriver driver = new WiniumDriver(new URL("http://127.0.0.1:9999"), options);
-        Thread.sleep(8000);
-        
-        // baralho master
-        robot.keyPress(KeyEvent.VK_TAB);
-        Thread.sleep(1000);
+        Thread.sleep(10000);
         
         /*
+        // baralho master
+        robot.keyPress(KeyEvent.VK_TAB);
+        */ 
+        
         // baralho v2
         robot.keyPress(KeyEvent.VK_TAB);
         Thread.sleep(1000);
-        
         robot.keyPress(KeyEvent.VK_TAB);
+                       
         Thread.sleep(1000);
-        */  
-                
+        
         // Executar baralho
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
         robot.keyPress(KeyEvent.VK_A);
 
     }
@@ -112,9 +111,7 @@ public class AnkiAuto {
 		 
 		Thread.sleep(1000);
 		 robot.keyPress(KeyEvent.VK_F3);
-		 Thread.sleep(1000);
 		 driver.findElementByName("Nome").click();
-		 Thread.sleep(1000);
 		 copiarColar(caminhoArquivo.getAbsolutePath());
 		 robot.keyPress(KeyEvent.VK_ENTER);
 	     
@@ -124,9 +121,7 @@ public class AnkiAuto {
 				
 		Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_TAB);
-		Thread.sleep(1000);
 		copiarColar(frasePortugues);
-		Thread.sleep(1000);
 	    adicionarCartao();
 		
 	}
@@ -136,18 +131,18 @@ public class AnkiAuto {
 		Thread.sleep(1000); 
 		robot.keyPress(KeyEvent.VK_CONTROL);
 		robot.keyPress(KeyEvent.VK_ENTER);
-		robot.delay(1000);
 		robot.keyRelease(KeyEvent.VK_CONTROL);
 
 	
 	}
 	
-	public void fecharAplicacao() throws InterruptedException {
+	public void fecharAplicacao() throws InterruptedException, IOException {
 		
 		Thread.sleep(1000);
 		driver.findElementByName("Fechar").click();
-		Thread.sleep(1000);
 		driver.findElementById("Close").click();
+		
+		this.tearDown();
 				
 	}
 	
@@ -160,17 +155,20 @@ public class AnkiAuto {
 		 robot.delay(1000);
 		 robot.keyPress(KeyEvent.VK_CONTROL); 
 		 robot.keyPress(KeyEvent.VK_V);
-		 robot.delay(1000);
 		 robot.keyRelease(KeyEvent.VK_CONTROL);
 		 robot.keyRelease(KeyEvent.VK_V);
 		
 		
 	}
 
-    protected void tearDown() {
-    	driver.close();
-    	service.stop();
-    	System.out.println("FIM!");
+    protected void tearDown() throws IOException, InterruptedException {
+    	
+    	Process process = Runtime.getRuntime().exec("TASKKILL /F /IM Winium.Desktop.Driver.exe");
+		process.waitFor();
+		if(process.isAlive()) {
+			process.destroy();
+		}
+    	
     }
     
 

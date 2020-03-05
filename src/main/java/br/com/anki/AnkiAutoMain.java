@@ -15,7 +15,7 @@ public class AnkiAutoMain {
 
 		/*
 		// MODULO - 5
-		String indice = "01"; // Até 07
+		String indice = "02"; // Até 07
 		String path = "C:\\CursoInglesMairoVergara\\5 - The Boy Who Flew Too High\\";
 		String pathAudio = "The Boy Who Flew "+indice+" Audios Anki\\";
 		String filePDFName = "PDF The Boy who Flew too High "+indice+".pdf";
@@ -23,10 +23,11 @@ public class AnkiAutoMain {
 		
 		
 		// MODULO - 6
-		String indice = "01"; // Até 08
+		String indice = "02"; // Até 08
 		String path = "C:\\CursoInglesMairoVergara\\6 - The Bell of Atri\\";
 		String pathAudio = "The Bell of Atri "+indice+" Audios Anki\\"; 
 		String filePDFName = "PDF The Bell of Atri "+indice+".pdf";
+			
 			
 		
 		String lines[] = null;
@@ -109,7 +110,7 @@ public class AnkiAutoMain {
 		            
 		            for (int j = linhaInicio ; j < linhaFim+1 ; j++) {
 		            		
-		            	String linhaTexto = lines[j].replace("’","").replace(",", "").replace("\"", "");
+		            	String linhaTexto = lines[j].replace("'","").replace(",", "").replace("\"", "");
 			            	
 		                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
 		                	int k = j;
@@ -179,20 +180,20 @@ public class AnkiAutoMain {
 					a.setTextoPortugues(textoPortugues);
 				}
 				 
-				 
-				 ankiAuto.fraseIngles(a.getTextoIngles().concat(" "));
-				 ankiAuto.audioIngles(a.getArquivoAudioIngles());
-				 ankiAuto.frasePortugues(a.getTextoPortugues().concat(" "));
-				 				 
 				 System.out.println("Audio: " + a.getArquivoAudioIngles());	 
 				 System.out.println("Texto Ingles:" + a.getTextoIngles());
 				 System.out.println("Texto Portugues:" + a.getTextoPortugues());
 				 System.out.println("--------");
 				 
+				 ankiAuto.fraseIngles(a.getTextoIngles().concat(" "));
+				 ankiAuto.audioIngles(a.getArquivoAudioIngles());
+				 ankiAuto.frasePortugues(a.getTextoPortugues().concat(" "));
+				 
+				 
 			 }
 			 
 			 ankiAuto.fecharAplicacao();
-			 ankiAuto.tearDown();
+			 System.out.print("FIM!");
 			 
 		}
 		
