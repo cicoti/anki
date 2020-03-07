@@ -80,15 +80,16 @@ public class AnkiAuto {
     	WiniumDriver driver = new WiniumDriver(new URL("http://127.0.0.1:9999"), options);
         Thread.sleep(10000);
         
-        /*
+        
         // baralho master
         robot.keyPress(KeyEvent.VK_TAB);
-        */ 
         
+        /*
         // baralho v2
         robot.keyPress(KeyEvent.VK_TAB);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_TAB);
+        */
                        
         Thread.sleep(1000);
         
@@ -102,14 +103,14 @@ public class AnkiAuto {
 	public void fraseIngles(String fraseIngles) throws InterruptedException {
 		 
 		//robot.keyPress(KeyEvent.VK_TAB);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 		 copiarColar(fraseIngles);
 	
 	}
 	
 	public void audioIngles(File caminhoArquivo) throws InterruptedException {
 		 
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		 robot.keyPress(KeyEvent.VK_F3);
 		 driver.findElementByName("Nome").click();
 		 copiarColar(caminhoArquivo.getAbsolutePath());
@@ -119,7 +120,7 @@ public class AnkiAuto {
 	
 	public void frasePortugues(String frasePortugues) throws InterruptedException {
 				
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		robot.keyPress(KeyEvent.VK_TAB);
 		copiarColar(frasePortugues);
 	    adicionarCartao();
@@ -128,9 +129,10 @@ public class AnkiAuto {
 	
 	protected void adicionarCartao() throws InterruptedException {
 		
-		Thread.sleep(1000); 
+		Thread.sleep(2000); 
 		robot.keyPress(KeyEvent.VK_CONTROL);
 		robot.keyPress(KeyEvent.VK_ENTER);
+		Thread.sleep(1000);
 		robot.keyRelease(KeyEvent.VK_CONTROL);
 
 	
@@ -140,6 +142,7 @@ public class AnkiAuto {
 		
 		Thread.sleep(1000);
 		driver.findElementByName("Fechar").click();
+		Thread.sleep(1000);
 		driver.findElementById("Close").click();
 		
 		this.tearDown();
@@ -155,6 +158,7 @@ public class AnkiAuto {
 		 robot.delay(1000);
 		 robot.keyPress(KeyEvent.VK_CONTROL); 
 		 robot.keyPress(KeyEvent.VK_V);
+		 robot.delay(1000);
 		 robot.keyRelease(KeyEvent.VK_CONTROL);
 		 robot.keyRelease(KeyEvent.VK_V);
 		

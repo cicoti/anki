@@ -15,7 +15,7 @@ public class AnkiAutoMain {
 
 		/*
 		// MODULO - 5
-		String indice = "02"; // Até 07
+		String indice = "06"; // Até 07
 		String path = "C:\\CursoInglesMairoVergara\\5 - The Boy Who Flew Too High\\";
 		String pathAudio = "The Boy Who Flew "+indice+" Audios Anki\\";
 		String filePDFName = "PDF The Boy who Flew too High "+indice+".pdf";
@@ -23,7 +23,7 @@ public class AnkiAutoMain {
 		
 		
 		// MODULO - 6
-		String indice = "02"; // Até 08
+		String indice = "06"; // Até 08
 		String path = "C:\\CursoInglesMairoVergara\\6 - The Bell of Atri\\";
 		String pathAudio = "The Bell of Atri "+indice+" Audios Anki\\"; 
 		String filePDFName = "PDF The Bell of Atri "+indice+".pdf";
@@ -73,8 +73,10 @@ public class AnkiAutoMain {
 			int linhaFim = 0;
 			
 			for (int j = 0 ; j < lines.length ; j++) {
-				
-	             if(lines[j].toUpperCase().startsWith(nomeArquivoAudio)) {
+            	
+				String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
+            	
+                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
 	            	 linhaInicio = j;
 	            	 break;
 	             	
@@ -87,7 +89,11 @@ public class AnkiAutoMain {
 			
 			for (int j = 0 ; j < lines.length ; j++) {
 				
-	             if(lines[j].toUpperCase().startsWith(nomeArquivoAudio)) {
+				String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
+            	
+				System.out.println(linhaTexto + " " + nomeArquivoAudio);
+				
+                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
 	            	 linhaFim = j;
 	            	 break;
 	             	
@@ -110,8 +116,9 @@ public class AnkiAutoMain {
 		            
 		            for (int j = linhaInicio ; j < linhaFim+1 ; j++) {
 		            		
-		            	String linhaTexto = lines[j].replace("'","").replace(",", "").replace("\"", "");
-			            	
+		            	//String linhaTexto = lines[j].replaceAll("'","").replaceAll(",", "").replaceAll("\"", "").trim().toUpperCase();
+		            	String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
+		            	
 		                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
 		                	int k = j;
 		                	while(!(lines[k].trim().length()<=0)) {
