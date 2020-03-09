@@ -165,7 +165,7 @@ public class AnkiAuto {
 		
 	}
 
-    protected void tearDown() throws IOException, InterruptedException {
+    public void tearDown() throws IOException, InterruptedException {
     	
     	Process process = Runtime.getRuntime().exec("TASKKILL /F /IM Winium.Desktop.Driver.exe");
 		process.waitFor();

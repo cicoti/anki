@@ -13,6 +13,9 @@ public class AnkiAutoMain {
 
 	public static void main(String[] args) throws IOException, InterruptedException, AWTException {
 
+		boolean isTeste = false;
+
+		
 		/*
 		// MODULO - 5
 		String indice = "06"; // Até 07
@@ -21,14 +24,21 @@ public class AnkiAutoMain {
 		String filePDFName = "PDF The Boy who Flew too High "+indice+".pdf";
 		*/
 		
-		
+		/*
 		// MODULO - 6
-		String indice = "06"; // Até 08
+		String indice = "08"; // Até 08
 		String path = "C:\\CursoInglesMairoVergara\\6 - The Bell of Atri\\";
 		String pathAudio = "The Bell of Atri "+indice+" Audios Anki\\"; 
 		String filePDFName = "PDF The Bell of Atri "+indice+".pdf";
-			
-			
+		*/	
+		
+		
+		// MODULO - 7
+		String indice = "02"; // Até 07
+		String path = "C:\\CursoInglesMairoVergara\\7 - Goldilocks\\";
+		String pathAudio = "Goldilocks Audios Anki "+indice+"\\";
+		String filePDFName = "PDF Goldilocks and the Three Bears "+indice+".pdf";	
+		
 		
 		String lines[] = null;
 		String token = "";
@@ -66,143 +76,164 @@ public class AnkiAutoMain {
 		
 		if (audioFiles.length > 0) {
 			
-			String nomeArquivoAudio = audioFiles[0].getName().substring(3);
+			try {
 			
-			nomeArquivoAudio = nomeArquivoAudio.substring(0,nomeArquivoAudio.indexOf(".mp3")).toUpperCase();
-			int linhaInicio = 0;
-			int linhaFim = 0;
-			
-			for (int j = 0 ; j < lines.length ; j++) {
-            	
-				String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
-            	
-                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
-	            	 linhaInicio = j;
-	            	 break;
-	             	
-	             }	
-	         }
-			
-			nomeArquivoAudio = audioFiles[audioFiles.length-1].getName().substring(3);
-			
-			nomeArquivoAudio = nomeArquivoAudio.substring(0,nomeArquivoAudio.indexOf(".mp3")).toUpperCase();
-			
-			for (int j = 0 ; j < lines.length ; j++) {
-				
-				String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
-            	
-				System.out.println(linhaTexto + " " + nomeArquivoAudio);
-				
-                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
-	            	 linhaFim = j;
-	            	 break;
-	             	
-	             }	
-	         }
-			 
-			 Anki anki = null;
-			 List<Anki> listaTextoAnki = new ArrayList<Anki>();
-			 for (int i = 0; i < audioFiles.length; i++) {
-		            
-				 	anki = new Anki();
-				 
-				 	anki.setArquivoAudioIngles(audioFiles[i]);
-				 	
-		            nomeArquivoAudio = audioFiles[i].getName().substring(3);
-
-		            nomeArquivoAudio = nomeArquivoAudio.substring(0,nomeArquivoAudio.indexOf(".mp3")).toUpperCase();
-		 
-		            ArrayList<String> blocos = new ArrayList<String>();
-		            
-		            for (int j = linhaInicio ; j < linhaFim+1 ; j++) {
-		            		
-		            	//String linhaTexto = lines[j].replaceAll("'","").replaceAll(",", "").replaceAll("\"", "").trim().toUpperCase();
-		            	String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
-		            	
-		                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
-		                	int k = j;
-		                	while(!(lines[k].trim().length()<=0)) {
-		                		//System.out.println(lines[k]);
-		                		blocos.add(lines[k]);
-		                		k++;
-		                		
-		                	}
-		                	//System.out.println("--------");
-		                	anki.setBlocos(blocos);
-		                }	
-		                
-		            }
-		            
-		            listaTextoAnki.add(anki);
-		
-		    }
-
-			 AnkiAuto ankiAuto = new AnkiAuto();
-			 			 
-			 for(int i = 0; i < listaTextoAnki.size();i++) {
-				 
-				 Anki a = listaTextoAnki.get(i);
-				 
-				 if (a.getBlocos().size() % 2 == 0) {
-				  
-					 String textoIngles = "";
-					 
-					 for(int j = 0; j < (a.getBlocos().size()/2); j++) {
-					
-						textoIngles = textoIngles + a.getBlocos().get(j);
-						 
-					 }
-					 
-					 a.setTextoIngles(textoIngles);
-					 
-					 String textoPortugues = "";
-					 
-					 for(int j = a.getBlocos().size()/2; j < (a.getBlocos().size()); j++) {
+							String nomeArquivoAudio = audioFiles[0].getName().substring(3);
 							
-						 textoPortugues = textoPortugues + a.getBlocos().get(j);
+							nomeArquivoAudio = nomeArquivoAudio.substring(0,nomeArquivoAudio.indexOf(".mp3")).toUpperCase();
+							int linhaInicio = 0;
+							int linhaFim = 0;
+							
+							for (int j = 0 ; j < lines.length ; j++) {
+				            	
+								String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
+				            	
+				                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
+					            	 linhaInicio = j;
+					            	 break;
+					             	
+					             }	
+					         }
+							
+							nomeArquivoAudio = audioFiles[audioFiles.length-1].getName().substring(3);
+							
+							nomeArquivoAudio = nomeArquivoAudio.substring(0,nomeArquivoAudio.indexOf(".mp3")).toUpperCase();
+							
+							for (int j = 0 ; j < lines.length ; j++) {
+								
+								String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
+				            	
+				                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
+					            	 linhaFim = j;
+					            	 break;
+					             	
+					             }	
+					         }
+							
+							 List<Anki> listaTextoAnki = new ArrayList<Anki>();
+							 for (int i = 0; i < audioFiles.length; i++) {
+						            
+								 Anki anki = new Anki();
+								 
+								 	anki.setArquivoAudioIngles(audioFiles[i]);
+								 	
+						            nomeArquivoAudio = audioFiles[i].getName().substring(3);
+				
+						            nomeArquivoAudio = nomeArquivoAudio.substring(0,nomeArquivoAudio.indexOf(".mp3")).toUpperCase();
+						 
+						            ArrayList<String> blocos = new ArrayList<String>();
+						            
+						            for (int j = linhaInicio ; j < linhaFim+1 ; j++) {
+						            		
+						            	String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
+										
+						                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
+						                	int k = j;
+						                	while(!(lines[k].trim().length()<=0)) {
+						                		//System.out.println(lines[k]);
+						                		blocos.add(lines[k]);
+						                		k++;
+						                		
+						                	}
+						                	//System.out.println("--------");
+						                	anki.setBlocos(blocos);
+						                }	
+						                
+						            }
+						            
+						            listaTextoAnki.add(anki);
+						
+						    }
+				
+							 List<Anki> listAnki = new ArrayList<Anki>();
+								 
 							 
-					 }
-					 
-					 a.setTextoPortugues(textoPortugues);
-				  
-				} else {
-				  
-					String textoIngles = "";
-					String textoPortugues = "";
-					
-					if( a.getBlocos().get(1).length() < a.getBlocos().get(2).length()) {
-
-						textoIngles = a.getBlocos().get(0).concat(a.getBlocos().get(1));
-						textoPortugues = a.getBlocos().get(2);
-						
-					}else {
+							 for(int i = 0; i < listaTextoAnki.size();i++) {
+								 
+								 Anki anki = listaTextoAnki.get(i);
+								 
+								 if (anki.getBlocos().size() % 2 == 0) {
+								  
+									 String textoIngles = "";
+									 
+									 for(int j = 0; j < (anki.getBlocos().size()/2); j++) {
 									
-						textoIngles = a.getBlocos().get(0);
-						textoPortugues = a.getBlocos().get(1).concat(a.getBlocos().get(2));
+										textoIngles = textoIngles + anki.getBlocos().get(j);
+										 
+									 }
+									 
+									 anki.setTextoIngles(textoIngles);
+									 
+									 String textoPortugues = "";
+									 
+									 for(int j = anki.getBlocos().size()/2; j < (anki.getBlocos().size()); j++) {
+											
+										 textoPortugues = textoPortugues + anki.getBlocos().get(j);
+											 
+									 }
+									 
+									 anki.setTextoPortugues(textoPortugues);
+								  
+								} else {
+								  
+									String textoIngles = "";
+									String textoPortugues = "";
+									
+									if( anki.getBlocos().get(1).length() < anki.getBlocos().get(2).length()) {
+				
+										textoIngles = anki.getBlocos().get(0).concat(anki.getBlocos().get(1));
+										textoPortugues = anki.getBlocos().get(2);
+										
+									}else {
+													
+										textoIngles = anki.getBlocos().get(0);
+										textoPortugues = anki.getBlocos().get(1).concat(anki.getBlocos().get(2));
+										
+										
+									}
+									
+									anki.setTextoIngles(textoIngles);
+									anki.setTextoPortugues(textoPortugues);
+								}
+
+								 listAnki.add(anki);
+								 
+								 System.out.println("Audio: " + anki.getArquivoAudioIngles());	 
+								 System.out.println("Texto Ingles:" + anki.getTextoIngles());
+								 System.out.println("Texto Portugues:" + anki.getTextoPortugues());
+								 System.out.println("--------");
+								 
+							 }
+							 
+
+							 if (!isTeste==true) {
+								 
+							 
+								AnkiAuto ankiAuto = new AnkiAuto();
+							 
+								 for(Anki anki : listAnki) {
+									 
+									 ankiAuto.fraseIngles(anki.getTextoIngles().concat(" "));
+									 ankiAuto.audioIngles(anki.getArquivoAudioIngles());
+									 ankiAuto.frasePortugues(anki.getTextoPortugues().concat(" "));
+							 
+								 }
+								 
+								 ankiAuto.fecharAplicacao();
 						
-						
-					}
+							 }	 
+							 
+							 System.out.print("FIM!");
+							 
+							 
+				} catch (Exception e) {
+			
+					e.printStackTrace();
 					
-					a.setTextoIngles(textoIngles);
-					a.setTextoPortugues(textoPortugues);
 				}
-				 
-				 System.out.println("Audio: " + a.getArquivoAudioIngles());	 
-				 System.out.println("Texto Ingles:" + a.getTextoIngles());
-				 System.out.println("Texto Portugues:" + a.getTextoPortugues());
-				 System.out.println("--------");
-				 
-				 ankiAuto.fraseIngles(a.getTextoIngles().concat(" "));
-				 ankiAuto.audioIngles(a.getArquivoAudioIngles());
-				 ankiAuto.frasePortugues(a.getTextoPortugues().concat(" "));
-				 
-				 
-			 }
-			 
-			 ankiAuto.fecharAplicacao();
-			 System.out.print("FIM!");
-			 
-		}
+			
+			
+			}
 		
 	
 	}
