@@ -50,8 +50,8 @@ public class AnkiAuto {
     	options = new DesktopOptions();
 		options.setApplicationPath("C:\\Program Files (x86)\\Anki\\anki.exe");
 		
-		//File driverPath = new File("C:\\Projetos\\automatizaranki\\Winium.Desktop.Driver.exe");
-		File driverPath = new File("..\\Winium.Desktop.Driver.exe");
+		File driverPath = new File("C:\\Projetos\\automatizaranki\\Winium.Desktop.Driver.exe");
+		//File driverPath = new File("..\\Winium.Desktop.Driver.exe");
 		service = new WiniumDriverService.Builder().usingDriverExecutable(driverPath).usingPort(9999).withVerbose(true).withSilent(false).buildDesktopService();
 		
 		try {

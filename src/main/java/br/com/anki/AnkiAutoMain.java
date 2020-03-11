@@ -34,9 +34,9 @@ public class AnkiAutoMain {
 		
 		
 		// MODULO - 7
-		String indice = "02"; // Até 07
+		String indice = "04"; // Até 07
 		String path = "C:\\CursoInglesMairoVergara\\7 - Goldilocks\\";
-		String pathAudio = "Goldilocks Audios Anki "+indice+"\\";
+		String pathAudio = "Goldilocks Audios para Anki "+indice+"\\Goldilocks Audios Anki "+indice+"\\";
 		String filePDFName = "PDF Goldilocks and the Three Bears "+indice+".pdf";	
 		
 		
@@ -86,8 +86,8 @@ public class AnkiAutoMain {
 							
 							for (int j = 0 ; j < lines.length ; j++) {
 				            	
-								String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
-				            	
+								String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "").toUpperCase().trim();
+								
 				                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
 					            	 linhaInicio = j;
 					            	 break;
@@ -101,9 +101,9 @@ public class AnkiAutoMain {
 							
 							for (int j = 0 ; j < lines.length ; j++) {
 								
-								String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
-				            	
-				                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
+								String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "").toUpperCase().trim();
+								
+				                if(linhaTexto.startsWith(nomeArquivoAudio)) {
 					            	 linhaFim = j;
 					            	 break;
 					             	
@@ -119,15 +119,16 @@ public class AnkiAutoMain {
 								 	
 						            nomeArquivoAudio = audioFiles[i].getName().substring(3);
 				
-						            nomeArquivoAudio = nomeArquivoAudio.substring(0,nomeArquivoAudio.indexOf(".mp3")).toUpperCase();
+						            nomeArquivoAudio = nomeArquivoAudio.substring(0,nomeArquivoAudio.indexOf(".mp3")).toUpperCase().trim();
 						 
 						            ArrayList<String> blocos = new ArrayList<String>();
 						            
 						            for (int j = linhaInicio ; j < linhaFim+1 ; j++) {
 						            		
-						            	String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "");
-										
-						                if(linhaTexto.toUpperCase().startsWith(nomeArquivoAudio)) {
+						            	String linhaTexto = lines[j].replaceAll("[^\\dA-Za-z ]", "").toUpperCase().trim();
+						            	
+						                if(linhaTexto.startsWith(nomeArquivoAudio)) {
+						                	System.out.println(linhaTexto+"<-->"+nomeArquivoAudio);
 						                	int k = j;
 						                	while(!(lines[k].trim().length()<=0)) {
 						                		//System.out.println(lines[k]);
@@ -198,10 +199,7 @@ public class AnkiAutoMain {
 
 								 listAnki.add(anki);
 								 
-								 System.out.println("Audio: " + anki.getArquivoAudioIngles());	 
-								 System.out.println("Texto Ingles:" + anki.getTextoIngles());
-								 System.out.println("Texto Portugues:" + anki.getTextoPortugues());
-								 System.out.println("--------");
+								
 								 
 							 }
 							 
@@ -212,6 +210,11 @@ public class AnkiAutoMain {
 								AnkiAuto ankiAuto = new AnkiAuto();
 							 
 								 for(Anki anki : listAnki) {
+									 									  
+									 System.out.println("Texto Ingles:" + anki.getTextoIngles());
+									 System.out.println("Audio: " + anki.getArquivoAudioIngles());	
+									 System.out.println("Texto Portugues:" + anki.getTextoPortugues());
+									 System.out.println("--------");
 									 
 									 ankiAuto.fraseIngles(anki.getTextoIngles().concat(" "));
 									 ankiAuto.audioIngles(anki.getArquivoAudioIngles());
