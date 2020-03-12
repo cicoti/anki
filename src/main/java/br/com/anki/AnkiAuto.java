@@ -52,7 +52,7 @@ public class AnkiAuto {
 		
 		File driverPath = new File("C:\\Projetos\\automatizaranki\\Winium.Desktop.Driver.exe");
 		//File driverPath = new File("..\\Winium.Desktop.Driver.exe");
-		service = new WiniumDriverService.Builder().usingDriverExecutable(driverPath).usingPort(9999).withVerbose(true).withSilent(false).buildDesktopService();
+		service = new WiniumDriverService.Builder().usingDriverExecutable(driverPath).usingPort(9999).withVerbose(true).withSilent(true).buildDesktopService();
 		
 		try {
 			service.start();
@@ -80,16 +80,17 @@ public class AnkiAuto {
     	WiniumDriver driver = new WiniumDriver(new URL("http://127.0.0.1:9999"), options);
         Thread.sleep(10000);
         
-        
+        /*
         // baralho master
         robot.keyPress(KeyEvent.VK_TAB);
+        */
         
-        /*
+        
         // baralho v2
         robot.keyPress(KeyEvent.VK_TAB);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_TAB);
-        */
+        
                        
         Thread.sleep(1000);
         
