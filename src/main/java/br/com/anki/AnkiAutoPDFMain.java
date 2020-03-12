@@ -9,11 +9,11 @@ import java.util.List;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.TextPosition;
 
-public class AnkiAutoMain {
+public class AnkiAutoPDFMain {
 
 	public static void main(String[] args) throws IOException, InterruptedException, AWTException {
 
-		boolean isTeste = false;
+		boolean isTeste = true;
 
 		
 		/*
@@ -34,7 +34,7 @@ public class AnkiAutoMain {
 		
 		
 		// MODULO - 7
-		String indice = "04"; // Até 07
+		String indice = "06"; // Até 07
 		String path = "C:\\CursoInglesMairoVergara\\7 - Goldilocks\\";
 		String pathAudio = "Goldilocks Audios para Anki "+indice+"\\Goldilocks Audios Anki "+indice+"\\";
 		String filePDFName = "PDF Goldilocks and the Three Bears "+indice+".pdf";	
@@ -69,6 +69,8 @@ public class AnkiAutoMain {
             pdfFileInText = pdfFileInText.replace(token, "\n");
             
             lines = pdfFileInText.split("\\r?\\n");
+            
+            System.out.println(pdfFileInText);
             
 		}    
 
