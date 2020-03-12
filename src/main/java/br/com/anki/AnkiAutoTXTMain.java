@@ -25,7 +25,6 @@ public class AnkiAutoTXTMain {
 		*/
 		
 		// MODULO - 8
-		
 		String indice = "02"; // Até 07
 		String path = "C:\\CursoInglesMairoVergara\\8 - Antonio Canova\\";
 		String pathAudio = "AC Audios para Anki "+indice+"\\Antonio Canova Audios Anki "+indice+"\\";
