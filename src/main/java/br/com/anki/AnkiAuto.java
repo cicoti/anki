@@ -80,17 +80,17 @@ public class AnkiAuto {
     	WiniumDriver driver = new WiniumDriver(new URL("http://127.0.0.1:9999"), options);
         Thread.sleep(10000);
         
-        /*
+        
         // baralho master
         robot.keyPress(KeyEvent.VK_TAB);
-        */
         
         
+        /*
         // baralho v2
         robot.keyPress(KeyEvent.VK_TAB);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_TAB);
-        
+        */
                        
         Thread.sleep(1000);
         

@@ -15,6 +15,7 @@ public class AnkiAutoTXTMain {
 	public static void main(String[] args) throws IOException, InterruptedException, AWTException {
 
 		boolean isTeste = false;
+		int recomecar = -1;
 				
 		// MODULO - 7
 		/*
@@ -25,7 +26,7 @@ public class AnkiAutoTXTMain {
 		*/
 		
 		// MODULO - 8
-		String indice = "02"; // Até 07
+		String indice = "05"; // Até 07
 		String path = "C:\\CursoInglesMairoVergara\\8 - Antonio Canova\\";
 		String pathAudio = "AC Audios para Anki "+indice+"\\Antonio Canova Audios Anki "+indice+"\\";
 		String fileTXTName = "TXT Antonio Canova "+indice+".txt";	
@@ -62,16 +63,19 @@ public class AnkiAutoTXTMain {
 			AnkiAuto ankiAuto = new AnkiAuto();
 		 
 			 for(Anki anki : listAnki) {
-				 									  
-				 System.out.println("Texto Ingles:" + anki.getTextoIngles());
-				 System.out.println("Audio: " + anki.getArquivoAudioIngles());	
-				 System.out.println("Texto Portugues:" + anki.getTextoPortugues());
-				 System.out.println("--------");
 				 
-				 ankiAuto.fraseIngles(anki.getTextoIngles().concat(" "));
-				 ankiAuto.audioIngles(anki.getArquivoAudioIngles());
-				 ankiAuto.frasePortugues(anki.getTextoPortugues().concat(" "));
-		 
+				 int pos = listAnki.indexOf(anki);
+				 System.out.println(pos);
+				 if(pos>recomecar) {
+					 System.out.println("Texto Ingles:" + anki.getTextoIngles());
+					 System.out.println("Audio: " + anki.getArquivoAudioIngles());	
+					 System.out.println("Texto Portugues:" + anki.getTextoPortugues());
+					 System.out.println("--------");
+					 
+					 ankiAuto.fraseIngles(anki.getTextoIngles().concat(" "));
+					 ankiAuto.audioIngles(anki.getArquivoAudioIngles());
+					 ankiAuto.frasePortugues(anki.getTextoPortugues().concat(" "));
+				 }	 
 			 }
 			 
 			 ankiAuto.fecharAplicacao();
@@ -80,11 +84,14 @@ public class AnkiAutoTXTMain {
 			
 			 for(Anki anki : listAnki) {
 				  
-				 System.out.println("Texto Ingles:" + anki.getTextoIngles());
-				 System.out.println("Audio: " + anki.getArquivoAudioIngles());	
-				 System.out.println("Texto Portugues:" + anki.getTextoPortugues());
-				 System.out.println("--------");
-		 
+				 int pos = listAnki.indexOf(anki);
+				 System.out.println(pos);
+				 if(pos>recomecar) {
+					 System.out.println("Texto Ingles:" + anki.getTextoIngles());
+					 System.out.println("Audio: " + anki.getArquivoAudioIngles());	
+					 System.out.println("Texto Portugues:" + anki.getTextoPortugues());
+					 System.out.println("--------");
+				 }
 			 }
 			 
 		 }
