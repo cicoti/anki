@@ -18,7 +18,7 @@ public class TesteAnkiAuto {
 
 	public static void main(String[] args) throws InterruptedException, IOException, AWTException {
 		
-		AnkiAuto ankiAuto = new AnkiAuto();
+		AnkiAuto ankiAuto = new AnkiAuto(2);
 		 
 		 Thread.sleep(8000);
 		 

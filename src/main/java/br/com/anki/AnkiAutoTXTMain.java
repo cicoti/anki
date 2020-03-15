@@ -60,7 +60,7 @@ public class AnkiAutoTXTMain {
 		if (!isTeste==true) {
 			 
 			 
-			AnkiAuto ankiAuto = new AnkiAuto();
+			AnkiAuto ankiAuto = new AnkiAuto(1);
 		 
 			 for(Anki anki : listAnki) {
 				 

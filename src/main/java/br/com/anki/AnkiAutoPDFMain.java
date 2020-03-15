@@ -209,7 +209,7 @@ public class AnkiAutoPDFMain {
 							 if (!isTeste==true) {
 								 
 							 
-								AnkiAuto ankiAuto = new AnkiAuto();
+								AnkiAuto ankiAuto = new AnkiAuto(0);
 							 
 								 for(Anki anki : listAnki) {
 									 									  

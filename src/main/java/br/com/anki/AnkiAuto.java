@@ -16,7 +16,7 @@ import org.openqa.selenium.winium.WiniumDriver;
 import org.openqa.selenium.winium.WiniumDriverService;
 
 public class AnkiAuto {
-	
+	int baralho = 0;
 	Robot robot = null;
 	DesktopOptions options;
 	WiniumDriverService service;
@@ -36,8 +36,8 @@ public class AnkiAuto {
 	 * }
 	 */
     
-	public AnkiAuto() throws InterruptedException, IOException, AWTException {
-		
+	public AnkiAuto(int baralho) throws InterruptedException, IOException, AWTException {
+		this.baralho = baralho;
 		this.setUp();
 		this.baralho();
 				
@@ -80,17 +80,26 @@ public class AnkiAuto {
     	WiniumDriver driver = new WiniumDriver(new URL("http://127.0.0.1:9999"), options);
         Thread.sleep(10000);
         
-        
+        if(baralho == 1) {
         // baralho master
         robot.keyPress(KeyEvent.VK_TAB);
+        }
         
-        
-        /*
-        // baralho v2
+        if(baralho == 2) {
+        // baralho v2 // Testes
         robot.keyPress(KeyEvent.VK_TAB);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_TAB);
-        */
+        }
+        
+        if(baralho == 3) {
+            // baralho estudo palavras
+            robot.keyPress(KeyEvent.VK_TAB);
+            Thread.sleep(1000);
+            robot.keyPress(KeyEvent.VK_TAB);
+            Thread.sleep(1000);
+            robot.keyPress(KeyEvent.VK_TAB);
+        }
                        
         Thread.sleep(1000);
         
