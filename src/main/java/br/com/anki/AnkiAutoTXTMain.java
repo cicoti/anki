@@ -15,7 +15,7 @@ public class AnkiAutoTXTMain {
 	public static void main(String[] args) throws IOException, InterruptedException, AWTException {
 
 		boolean isTeste = false;
-		int recomecar = -1;
+		int recomecar = 0;
 				
 		// MODULO - 7
 		/*
@@ -25,11 +25,19 @@ public class AnkiAutoTXTMain {
 		String fileTXTName = "TXT Goldilocks and the Three Bears "+indice+".txt";	
 		*/
 		
+		/*
 		// MODULO - 8
-		String indice = "05"; // Até 07
+		String indice = "07"; // Até 07
 		String path = "C:\\CursoInglesMairoVergara\\8 - Antonio Canova\\";
 		String pathAudio = "AC Audios para Anki "+indice+"\\Antonio Canova Audios Anki "+indice+"\\";
 		String fileTXTName = "TXT Antonio Canova "+indice+".txt";	
+		*/
+		
+		// MODULO - 9
+		String indice = "02"; // Até 08
+		String path = "C:\\CursoInglesMairoVergara\\9 - Cats and Dogs";
+		String pathAudio = "\\Cats and Dogs Audios para Anki "+indice+"\\Cats and Dogs Audios Anki "+indice+"\\";
+		String fileTXTName = "\\TXT Cats and Dogs "+indice+".txt";	
 		
 		File dirAudioFiles = new File(path.concat(pathAudio));
 		File[] audioFiles = dirAudioFiles.listFiles();
@@ -66,7 +74,7 @@ public class AnkiAutoTXTMain {
 				 
 				 int pos = listAnki.indexOf(anki);
 				 System.out.println(pos);
-				 if(pos>recomecar) {
+				 if(pos>=recomecar) {
 					 System.out.println("Texto Ingles:" + anki.getTextoIngles());
 					 System.out.println("Audio: " + anki.getArquivoAudioIngles());	
 					 System.out.println("Texto Portugues:" + anki.getTextoPortugues());
@@ -86,7 +94,7 @@ public class AnkiAutoTXTMain {
 				  
 				 int pos = listAnki.indexOf(anki);
 				 System.out.println(pos);
-				 if(pos>recomecar) {
+				 if(pos>=recomecar) {
 					 System.out.println("Texto Ingles:" + anki.getTextoIngles());
 					 System.out.println("Audio: " + anki.getArquivoAudioIngles());	
 					 System.out.println("Texto Portugues:" + anki.getTextoPortugues());
