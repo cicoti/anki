@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AnkiAutoTXTMain {
+public class AnkiTXTMain {
 
 	public static void main(String[] args) throws IOException, InterruptedException, AWTException {
 
@@ -32,9 +32,9 @@ public class AnkiAutoTXTMain {
 		String pathAudio = "AC Audios para Anki "+indice+"\\Antonio Canova Audios Anki "+indice+"\\";
 		String fileTXTName = "TXT Antonio Canova "+indice+".txt";	
 		*/
-		
+				
 		// MODULO - 9
-		String indice = "02"; // Até 08
+		String indice = "08"; // Até 08
 		String path = "C:\\CursoInglesMairoVergara\\9 - Cats and Dogs";
 		String pathAudio = "\\Cats and Dogs Audios para Anki "+indice+"\\Cats and Dogs Audios Anki "+indice+"\\";
 		String fileTXTName = "\\TXT Cats and Dogs "+indice+".txt";	
