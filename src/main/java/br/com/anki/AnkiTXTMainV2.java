@@ -19,7 +19,7 @@ public class AnkiTXTMainV2 {
 		int recomecar = 10;
 
 		String fileTXTName = "Lost and Found.txt";
-		String path = "\\src\\resource\\CursoInglesMairoVergara\\10 - Lost and Found\\part 8\\";
+		String path = "\\src\\resource\\CursoInglesMairoVergara\\10 - Lost and Found\\part 9\\";
 
 		File file = new File(new File(".").getCanonicalPath().concat(path.concat(fileTXTName)));
 		Path pathFileTXT = Paths.get(file.getAbsolutePath());
