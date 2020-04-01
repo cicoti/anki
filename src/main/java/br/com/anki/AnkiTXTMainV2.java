@@ -16,7 +16,7 @@ public class AnkiTXTMainV2 {
 
 		boolean isTeste = false;
 
-		int recomecar = 10;
+		int recomecar = 0;
 
 		String fileTXTName = "Lost and Found.txt";
 		String path = "\\src\\resource\\CursoInglesMairoVergara\\10 - Lost and Found\\part 9\\";
