@@ -15,11 +15,12 @@ public class AnkiTXTMainV2 {
 	public static void main(String[] args) throws IOException, InterruptedException, AWTException {
 
 		boolean isTeste = false;
+		boolean isJustWords = true;
 
 		int recomecar = 0;
 
 		String fileTXTName = "Lost and Found.txt";
-		String path = "\\src\\resource\\CursoInglesMairoVergara\\10 - Lost and Found\\part 9\\";
+		String path = "\\src\\resource\\CursoInglesMairoVergara\\10 - Lost and Found\\part 10\\";
 
 		File file = new File(new File(".").getCanonicalPath().concat(path.concat(fileTXTName)));
 		Path pathFileTXT = Paths.get(file.getAbsolutePath());
@@ -46,16 +47,30 @@ public class AnkiTXTMainV2 {
 				 int pos = listAnki.indexOf(anki);
 				 System.out.println(pos);
 				 if(pos>=recomecar) {
+
 					 System.out.println("Texto Ingles:" + anki.getTextoIngles());
 					 System.out.println("Audio Ingles:" + anki.getArquivoAudioIngles());
 					 System.out.println("Texto Portugues:" + anki.getTextoPortugues());
 					 System.out.println("--------");
 
-					 ankiMineracao.fraseIngles(anki.getTextoIngles().concat(" "));
-					 if(anki.getArquivoAudioIngles()!=null)  ankiMineracao.audioIngles(anki.getArquivoAudioIngles());
-					 else ankiMineracao.audioIngles();
-					 ankiMineracao.frasePortugues(anki.getTextoPortugues().concat(" "));
+					 if(isJustWords) {
+
+						 if(anki.getArquivoAudioIngles()==null) {
+							 ankiMineracao.fraseIngles(anki.getTextoIngles().concat(" "));
+							 ankiMineracao.audioIngles();
+							 ankiMineracao.frasePortugues(anki.getTextoPortugues().concat(" "));
+						 }
+
+					 } else {
+
+						 ankiMineracao.fraseIngles(anki.getTextoIngles().concat(" "));
+						 if(anki.getArquivoAudioIngles()!=null)  ankiMineracao.audioIngles(anki.getArquivoAudioIngles());
+						 else ankiMineracao.audioIngles();
+						 ankiMineracao.frasePortugues(anki.getTextoPortugues().concat(" "));
+					 }
+
 				 }
+
 			 }
 
 			 ankiMineracao.fecharAplicacao();
