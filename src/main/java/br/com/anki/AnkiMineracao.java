@@ -83,7 +83,7 @@ public class AnkiMineracao {
         if(baralho == 1) {
         // baralho master
     	robot.keyPress(KeyEvent.VK_TAB);
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         //robot.keyPress(KeyEvent.VK_TAB);
         //Thread.sleep(2000);
         }
