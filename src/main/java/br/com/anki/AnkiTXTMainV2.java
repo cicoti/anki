@@ -24,8 +24,8 @@ public class AnkiTXTMainV2 {
 		String path = "\\src\\resource\\CursoInglesMairoVergara\\10 - Lost and Found\\part 10\\";
 		*/
 
-		String fileTXTName = "Steve Jobs.txt";
-		String path = "\\src\\resource\\CursoInglesMairoVergara\\11 - Steve Jobs\\part#11\\";
+		String fileTXTName = "A Change in Routine.txt";
+		String path = "\\src\\resource\\CursoInglesMairoVergara\\12 - A Change in Routine\\part#1\\";
 
 		File file = new File(new File(".").getCanonicalPath().concat(path.concat(fileTXTName)));
 		Path pathFileTXT = Paths.get(file.getAbsolutePath());
