@@ -25,7 +25,7 @@ public class AnkiTXTMainV2 {
 		*/
 
 		String fileTXTName = "A Change in Routine.txt";
-		String path = "\\src\\resource\\CursoInglesMairoVergara\\12 - A Change in Routine\\part#4\\";
+		String path = "\\src\\resource\\CursoInglesMairoVergara\\12 - A Change in Routine\\part#5\\";
 
 		File file = new File(new File(".").getCanonicalPath().concat(path.concat(fileTXTName)));
 		Path pathFileTXT = Paths.get(file.getAbsolutePath());
@@ -58,25 +58,33 @@ public class AnkiTXTMainV2 {
 					 System.out.println("Texto Portugues:" + anki.getTextoPortugues());
 					 System.out.println("--------");
 
-					 if(isJustWords) {
-
-						 if(anki.getArquivoAudioIngles()==null) {
-							 ankiMineracao.fraseIngles(anki.getTextoIngles().concat(" "));
-							 ankiMineracao.audioIngles();
-							 ankiMineracao.frasePortugues(anki.getTextoPortugues().concat(" "));
-						 }
-
-					 } else {
-
-						 ankiMineracao.fraseIngles(anki.getTextoIngles().concat(" "));
-						 if(anki.getArquivoAudioIngles()!=null)  ankiMineracao.audioIngles(anki.getArquivoAudioIngles());
-						 else ankiMineracao.audioIngles();
-						 ankiMineracao.frasePortugues(anki.getTextoPortugues().concat(" "));
-					 }
+					 if(anki.getTextoPortugues().trim().length()>0){	 						 
+						 					 
+							 if(isJustWords) {
+		
+								 
+								 if(anki.getArquivoAudioIngles()==null) {
+									 ankiMineracao.fraseIngles(anki.getTextoIngles().concat(" "));
+									 ankiMineracao.audioIngles();
+									 ankiMineracao.frasePortugues(anki.getTextoPortugues().concat(" "));
+								 }
+								 
+		
+							 } else {
+		
+								 ankiMineracao.fraseIngles(anki.getTextoIngles().concat(" "));
+								 if(anki.getArquivoAudioIngles()!=null)  ankiMineracao.audioIngles(anki.getArquivoAudioIngles());
+								 else ankiMineracao.audioIngles();
+								 ankiMineracao.frasePortugues(anki.getTextoPortugues().concat(" "));
+							 }
+							 
+					 	}	 
+						 
+				 	} 
 
 				 }
 
-			 }
+			
 
 			 ankiMineracao.fecharAplicacao();
 
