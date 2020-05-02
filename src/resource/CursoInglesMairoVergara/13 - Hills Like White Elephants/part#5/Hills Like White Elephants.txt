@@ -2,7 +2,7 @@
 "Bem," disse o homem,
 
 "if you don't want to you don't have to.
-"se você não quer, não precisa.
+"se você não quiser, não precisa.
 
 I wouldn't have you do it if you didn't want to.
 Eu não teria feito isso se você não quisse.
@@ -53,4 +53,4 @@ Você sabe como estou quando me preocupo."
 "Se eu fizer você nunca ficará preocupado?"
 
 "I won't worry about that because it's perfectly simple."
-"Eu não preocupo com isso porque é perfeitamente simpels."
+"Eu não preocupo com isso porque é perfeitamente simples."
