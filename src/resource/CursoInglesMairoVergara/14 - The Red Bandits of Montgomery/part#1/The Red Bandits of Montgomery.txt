@@ -1,108 +1,112 @@
+1
 When chimneys were first added to houses in Wales,
 Quando as primeiras chaminés foram adicionadas às casas no pais de Gales,
-
+2
 and the style of house-building changed,
 e o estilo de construção de casas mudou,
-
+3
 from round to square,
-de arredondado para quadrado,
-
+de redondo para quadrado,
+4
 many old people found fault with the new fashion of letting the smoke out.
-muitos idosos encontraram uma falha na nova moda de deixar a fumaça sair.
-
+muitos idosos encontraram uma falha na nova forma de deixar a fumaça sair.
+5
 They declared they caught colds and sneezed more often,
-Eles afirmaram que eles pegavam mais resfriados e espirravam com mais frequencia, 
-
+Eles afirmaram que eles pegavam mais resfriados e espirravam com mais frequencia,
+6
 than in the times gone by.
 mais que em tempos passados.
-
+7
 But the greatest objection that the old folks had to the chimneys
 Mas a maior objeção que os velhos tinha para as chaminés
-
+8
 was that robbers used them to climb down at night
 foi que os ladrões usavam elas para descer a noite
-
+9
 and steal people's money,
 e robar o dinheiro das pessoas,
-
+10
 when they were asleep.
 quando elas estavam dormindo.
-
+11
 In Montgomery, which is one of the Welsh shires,
 Em Montgomery, que é um dos condados galês,
-
+12
 the most famous of the robber gangs were called the Red Bandits.
 a mais famosa das gangues de roubo era chamada de Bandidos Vermelhos.
-
+13
 A young widow lived there,
 Uma jovem viuva vivia alí,
-
+14
 whose husband had been killed by road robbers
 cujo marido foi morto por assaltandes de estrada
-
+15
 She was left alone in the world,
 Ela foi deixada sozinha no mundo,
-
+16
 with a little baby boy in the cradle
 com um pequeno bebe menino no berço
-
+17
 and only one cow in the shed.
-e apenas uma vaca no barracão. 
-
+e apenas uma vaca no barracão.
+18
 She had to work hard to pay her rent,
 Ela tem que trabalhar duro para pagar seu aluguel,
-
+19
 but as there were three or four scythes set in the chimney,
 mas como havia tres ou quatro foices montadas na chaminé,
-
+20
 and the cow stable had a good lock on it,
 e a vaca ficava no estabulo que tinha uma boa trava,
-
+21
 she thought she was safe from burglars.
 ela pensava que estava segura dos assaltantes.
-
-1
+22
 declared
 declarado, considerado, proclamado, decretado, afirmado.
-2
+23
 caught colds
 pego resfriado
-3
+24
 sneezed
 espirrado
-4
+25
 folks
 pessoal, pessoas, gente, povo
-5
+26
 shires
 condados
-6
+27
 Welsh
 galês
-7
+28
 widow
 viuva
-8
+29
 unwed
 solteira
-9
-casada
+30
 wedded
-10
+casada
+31
 wed
 casar
-11
+32
 whose
 cuso, de quem, quais
-12
+33
 shed
 galpão, cabana, abrigo, celeiro, derramar, lançar, verter, perder.
-13
+34
 scythe
-flice, segadeira, gadanha, ceifadeira
-14
+foice, segadeira, gadanha, ceifadeira
+35
 stable
-estábulo, chocheira, curral 
-15
+estábulo, chocheira, curral
+36
+lock
+trancar, fechadura, bloquear, cadeado
+37
 burglars
 ladrões, assaltantes, arrombadores
+
