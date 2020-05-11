@@ -1,0 +1,42 @@
+1
+The storyteller began his story.
+O contador de histórias começou sua história.
+2
+“Once upon a time a certain king seized all the corn in his country,
+“Uma vez (era uma vez) um certo rei confiscou todo o milho de seu país,
+3
+and stored it in a strong granary,
+e guardou-o em um forte celeiro,
+4
+but a swarm of locusts came over the land
+mas um enxame de gafanhotos invadiu a terra
+5
+and saw where the grains were stored.
+e viu onde os grãos estavam guardados.
+6
+After searching for many days,
+Depois de procurar por muitos dias,
+7
+the locusts found a small crack on the east side of the granary,
+os gafanhotos encontraram uma pequena rachadura no lado leste do celeiro,
+8
+but the opening was just large enough for one locust at a time to pass through.
+mas a abertura era apenas grande o bastante para um gafanhoto de cada vez passar.
+9
+So, one locust went in
+Então, um gafanhoto entrou
+10
+and carried away a grain of corn;
+e levou um grão de milho;
+11
+then another locust went in
+então outro gafanhoto entrou
+12
+and carried away a grain of corn;
+e levou um grão de milho;
+13
+then another locust went in
+então outro gafanhoto entrou
+14
+and carried away a grain of corn.”
+e levou um grão de milho.”
