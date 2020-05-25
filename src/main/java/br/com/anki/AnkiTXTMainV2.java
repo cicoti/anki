@@ -1,4 +1,4 @@
-package br.com.anki;
+	package br.com.anki;
 
 import java.awt.AWTException;
 import java.io.File;
@@ -24,8 +24,13 @@ public class AnkiTXTMainV2 {
 		String path = "\\src\\resource\\CursoInglesMairoVergara\\10 - Lost and Found\\part 10\\";
 		*/
 
-		String fileTXTName = "The Red Bandits of Montgomery.txt";
-		String path = "\\src\\resource\\CursoInglesMairoVergara\\14 - The Red Bandits of Montgomery\\part#7\\";
+
+		String fileTXTName = "\\5.txt";
+		String path = "\\src\\resource\\CursoInglesMairoVergara\\Mar\\2 - Dead to Me\\Season 1";
+
+		//String fileTXTName = "\\3.txt";
+		//String path = "\\src\\resource\\CursoInglesMairoVergara\\Gramatica\\Lesson #3";
+
 
 		File file = new File(new File(".").getCanonicalPath().concat(path.concat(fileTXTName)));
 		Path pathFileTXT = Paths.get(file.getAbsolutePath());
@@ -59,6 +64,11 @@ public class AnkiTXTMainV2 {
 					 System.out.println("--------");
 
 					 if(anki.getTextoPortugues().trim().length()>0){
+
+						/*
+						 * if(anki.getTextoIngles().contains("[Grammar]")) {
+						 * anki.setTextoIngles(anki.getTextoIngles().substring(10)); }
+						 */
 
 							 if(isJustWords) {
 

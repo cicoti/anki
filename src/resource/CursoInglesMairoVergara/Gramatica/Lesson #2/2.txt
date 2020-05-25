@@ -1,0 +1,21 @@
+1
+[Grammar] I don't speak English.
+Eu não falo inglês.
+2
+[Grammar] You don't think too much.
+Você não pensa demais.
+3
+[Grammar] We don't see dead people.
+Nós não vemos pessoas mortas.
+4
+[Grammar] They don't speak English.
+Eles não falam inglês.
+5
+[Grammar] He doesn't speak English.
+Ele não fala inglês.
+6
+[Grammar] She doesn't think too much.
+Ela não pensa demais.
+7
+[Grammar] It doesn't see dead people.
+Algo/ele/ela não vê pessoas mortas.

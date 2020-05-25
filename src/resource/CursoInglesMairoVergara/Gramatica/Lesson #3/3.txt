@@ -1,0 +1,21 @@
+1
+[Grammar] Do you speak English?
+Você fala inglês?
+2
+[Grammar] Do I think too much?
+Eu penso demais?
+3
+[Grammar] Do we see dead people?
+Nós vemos pessoas mortas?
+4
+[Grammar] Do they speak English?
+Eles falam inglês?
+5
+[Grammar] Does he speak English?
+Ele fala inglês?
+6
+[Grammar] Does she think too much?
+Ela pensa demais?
+7
+[Grammar] Does it see dead people?
+Algo/ele/ela vê pessoas mortas?

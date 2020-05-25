@@ -1,0 +1,21 @@
+1
+[Grammar] I speak English.
+Eu falo inglês.
+2
+[Grammar] You think too much.
+Você pensa demais.
+3
+[Grammar] We see dead people.
+Nós vemos pessoas mortas.
+4
+[Grammar] They speak English.
+Eles falam inglês.
+5
+[Grammar] He speaks English.
+Ele fala inglês.
+6
+[Grammar] She thinks too much.
+Ela pensa demais.
+7
+[Grammar] It sees dead people.
+Algo/ele/ela vê pessoas mortas.
