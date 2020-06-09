@@ -1,4 +1,4 @@
-	package br.com.anki;
+package br.com.anki;
 
 import java.awt.AWTException;
 import java.io.File;
@@ -21,15 +21,15 @@ public class AnkiTXTMainV2 {
 
 		/*
 		String fileTXTName = "Lost and Found.txt";
-		String path = "\\src\\resource\\CursoInglesMairoVergara\\10 - Lost and Found\\part 10\\";
+		String path = "\\src\\resource\\C	ursoInglesMairoVergara\\10 - Lost and Found\\part 10\\";
 		*/
 
 
-		String fileTXTName = "\\5.txt";
-		String path = "\\src\\resource\\CursoInglesMairoVergara\\Mar\\2 - Dead to Me\\Season 1";
+		//String fileTXTName = "\\6.txt";
+		//String path = "\\src\\resource\\CursoInglesMairoVergara\\Mar\\2 - Dead to Me\\Season 2";
 
-		//String fileTXTName = "\\3.txt";
-		//String path = "\\src\\resource\\CursoInglesMairoVergara\\Gramatica\\Lesson #3";
+		String fileTXTName = "\\9.txt";
+		String path = "\\src\\resource\\CursoInglesMairoVergara\\Gramatica\\Lesson #9";
 
 
 		File file = new File(new File(".").getCanonicalPath().concat(path.concat(fileTXTName)));

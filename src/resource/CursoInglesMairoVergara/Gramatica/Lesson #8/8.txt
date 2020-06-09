@@ -1,0 +1,21 @@
+1
+[Grammar] I don't have a car. I haven't got a car.
+Eu não tenho um carro.
+2
+[Grammar] You don't have a friend. You haven't got a friend.
+Você não tem um amigo.
+3
+[Grammar] We don't have feelings. We haven't got feelings.
+Nós não temos sentimentos.
+4
+[Grammar] They don't have a surprise for you. They haven't got a surprise for you.
+Eles/elas não têm uma surpresa para você.
+5
+[Grammar] He doesn't have a car. He hasn't got a car.
+Ele não tem um carro.
+6
+[Grammar] She doesn't have a house. She hasn't got a house.
+Ela não tem uma casa.
+7
+[Grammar] It doesn't have a name. It hasn't got a name.
+(Algo) não tem um nome.

@@ -1,0 +1,24 @@
+1
+[Grammar] I have a car. I've got a car.
+Eu tenho um carro.
+2
+[Grammar] You have a friend. You've got a friend.
+Você tem um amigo.
+3
+[Grammar] We have feelings. We've got feelings.
+Nós temos sentimentos.
+4
+[Grammar] They have a surprise for you. They've got a surprise for you.
+Eles/elas têm uma surpresa para você.
+5
+[Grammar] [Informal nos EUA] I got a car. Got a minute? Got room for one more?
+Eu tenho um carro. Tem um minuto? Tem espaço para mais um?
+6
+[Grammar] He has a car. He's got a car.
+Ele tem um carro.
+7
+[Grammar] She has a house. She's got a house.
+Ela tem uma casa.
+8
+[Grammar] It has a name. It's got a name.
+(Algo) tem um nome.

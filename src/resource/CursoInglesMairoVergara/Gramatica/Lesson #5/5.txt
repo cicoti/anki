@@ -1,0 +1,21 @@
+1
+[Grammar] I am not happy. I'm not happy.
+Eu não estou /sou feliz.
+2
+[Grammar] You are not here. You're not here. You aren't here.
+Você não está aqui.
+3
+[Grammar] He is not amazing. He's not amazing. He isn't amazing.
+Ele não é incrível.
+4
+[Grammar] She is not beautiful. She's not beautiful. She isn't beautiful.
+Ela não é linda.
+5
+[Grammar] It is not amazing. It's not amazing. It isn't amazing.
+(Algo) não é incrível.
+6
+[Grammar] We are not here. We're not here. We aren't here.
+Nós não estamos aqui.
+7
+[Grammar] They are not happy. They're not happy. They aren't happy.
+Eles/elas não estão/são felizes.

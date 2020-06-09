@@ -1,0 +1,21 @@
+1
+[Grammar] Do I have a car? Have I got a car?
+Eu tenho um carro?
+2
+[Grammar] Do you have a friend? Have you got a friend?
+Você tem um amigo?
+3
+[Grammar] Do we have feelings? Have we got feelings?
+Nós temos sentimentos?
+4
+[Grammar] Do they have a surprise for you? Have they got a surprise for you?
+Eles/elas têm uma surpresa para você?
+5
+[Grammar] Does he have a car? Has he got a car?
+Ele tem um carro?
+6
+[Grammar] Does she have a house? Has she got a house?
+Ela tem uma casa?
+7
+[Grammar] Does it have a name? Has it got a name?
+(Algo) tem um nome?

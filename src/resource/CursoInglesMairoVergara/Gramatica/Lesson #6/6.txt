@@ -1,0 +1,23 @@
+1
+[Grammar] Am I happy?
+Eu estou/sou feliz?
+2
+[Grammar] Are you here?
+Você está aqui?
+3
+[Grammar] Is he amazing?
+Ele é incrível?
+4
+[Grammar] Is she beautiful?
+Ela é linda?
+5
+[Grammar] Is it amazing?
+(Algo) é incrível?
+6
+[Grammar] Are we here?
+Nós estamos aqui?
+7
+[Grammar] Are they happy?
+Elas/elas estão/são felizes?
+
+

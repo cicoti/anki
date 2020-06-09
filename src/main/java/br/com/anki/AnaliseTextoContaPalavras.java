@@ -1,22 +1,22 @@
 package br.com.anki;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
-public class AnaliseTexto {
+public class AnaliseTextoContaPalavras {
 
 	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
 
 		String path = "D:\\silvio\\projetos\\AutomatizarAnki\\git\\anki\\src\\resource\\CursoInglesMairoVergara\\Mar\\2 - Dead to Me\\Season 2";
 		//String fileTXTName = "\\Dead to Me - 1x07 - I Can Handle It.HDTV.AMRAP.en.srt";
-		String fileTXTName = "\\6.srt";
+		String fileTXTName = "\\1.srt";
 
 		Path pathFileTXT = Paths.get(path.concat(fileTXTName));
 		byte[] bytes = Files.readAllBytes(pathFileTXT);
@@ -88,23 +88,22 @@ public class AnaliseTexto {
 		    palavra = palavra.toLowerCase();
 			//System.out.println(palavra);
 		    //palavrasTexto.add(palavra);
-		    palavrasUnicas[i] = palavra;
+		    //palavrasUnicas[i] = palavra;
+		   // System.out.println(palavra);
 		}
 
-		String[] array = palavrasUnicas;
 
-		array = new HashSet<String>(Arrays.asList(array))
-                .toArray(new String[0]);
-
-		Arrays.sort(array);
-
-        for (String str : array)
-            System.out.println(str + " ");
-
-
-        System.out.println("Plavras Unicas: " + array.length);
-
-
+		Long qtd = 0L;
+		Map<String, Long> p = new HashMap<String, Long>();
+		p.put("teste", ++qtd);
+		if(p.get("teste") != null) {
+			qtd = p.get("teste");
+			p.put("teste",++qtd);
+		}
+		if(p.get("teste") != null) {
+			qtd = p.get("teste");
+			System.out.println(qtd);
+		}
 
 	}
 
