@@ -1,0 +1,36 @@
+1
+[Grammar] We didn't have a bad day.
+Nós não tivemos um dia ruim.
+2
+[Grammar] He didn't go to jail.
+Ele não foi para a cadeira/prisão.
+3
+[Grammar] I didn't know from the beginning.
+Eu não soube desde o começo.
+4
+[Grammar] You didn't do a great job.
+Você não fez um ótimo trabalho.
+5
+[Grammar] They didn't see a cat.
+Eles/elas não viram um gato.
+6
+[Grammar] It didn't make me laugh.
+(Algo) não me fez rir.
+7
+[Grammar] I didn't look at you.
+Eu não olhei para você.
+8
+[Grammar] You didn't want more.
+Você não queria mais.
+9
+[Grammar] He didn't ask if I could drive.
+Ele não perguntou se eu podia dirigir.
+10
+[Grammar] We didn't try many times.
+Nós não tentamos muitas vezes.
+11
+[Grammar] They didn't stop at a good place.
+Eles/elas não pararam em um bom local.
+12
+[Grammar] It didn't need to be fixed.
+(Algo) não precisava ser consertado.

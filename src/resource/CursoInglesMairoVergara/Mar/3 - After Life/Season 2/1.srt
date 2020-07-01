@@ -1,0 +1,2239 @@
+1
+00:00:11,320 --> 00:00:12,480
+<i>Be strong.</i>
+
+2
+00:00:13,360 --> 00:00:14,760
+<i>Be nice to your friends.</i>
+
+3
+00:00:16,960 --> 00:00:19,280
+<i>You always love it</i>
+<i>when you do a nice thing, don't you?</i>
+
+4
+00:00:19,360 --> 00:00:21,720
+[Lisa] <i>I mean... you know, admittedly, </i>
+
+5
+00:00:21,800 --> 00:00:24,280
+<i>it's usually to apologize</i>
+<i>for having said something awful, but...</i>
+
+6
+00:00:25,000 --> 00:00:26,760
+<i>Well, not awful, but too honest.</i>
+
+7
+00:00:27,800 --> 00:00:29,320
+<i>Not always the best policy.</i>
+
+8
+00:00:29,760 --> 00:00:31,560
+[dog whining]
+
+9
+00:00:32,320 --> 00:00:33,560
+You want your breakfast?
+
+10
+00:00:34,840 --> 00:00:36,040
+-Yeah?
+-[Brandy whining]
+
+11
+00:00:37,160 --> 00:00:38,160
+Come on, then.
+
+12
+00:00:38,480 --> 00:00:41,000
+["Top of the World"
+by the Carpenters plays]
+
+13
+00:00:55,040 --> 00:00:59,240
+<i>♪ Such a feeling's coming over me ♪</i>
+
+14
+00:00:59,800 --> 00:01:04,600
+<i>♪ There is wonder</i>
+<i>In most everything I see ♪</i>
+
+15
+00:01:05,080 --> 00:01:07,840
+<i>♪ Not a cloud in the sky ♪</i>
+
+16
+00:01:07,920 --> 00:01:10,280
+<i>♪ Got the sun in my eyes ♪</i>
+
+17
+00:01:10,360 --> 00:01:15,240
+<i>♪ And I won't be surprised</i>
+<i>If it's a dream ♪</i>
+
+18
+00:01:15,800 --> 00:01:20,240
+<i>♪ Everything I want the world to be ♪</i>
+
+19
+00:01:20,520 --> 00:01:25,560
+<i>♪  Is now coming true</i>
+<i>Especially for me ♪</i>
+
+20
+00:01:25,920 --> 00:01:28,560
+<i>♪ And the reason is clear ♪</i>
+
+21
+00:01:28,640 --> 00:01:31,240
+<i>♪ It's because you are here ♪</i>
+
+22
+00:01:31,320 --> 00:01:35,920
+<i>♪ You're the nearest thing to heaven</i>
+<i>That I've seen ♪</i>
+
+23
+00:01:36,000 --> 00:01:41,440
+<i>♪ I'm on the top of the world</i>
+<i>Lookin' down on creation ♪</i>
+
+24
+00:01:41,520 --> 00:01:46,200
+<i>♪ And the only explanation</i>
+<i>I can find ♪</i>
+
+25
+00:01:46,600 --> 00:01:51,520
+<i>♪ Is the love that I've found</i>
+<i>Ever since you've been around ♪</i>
+
+26
+00:01:51,760 --> 00:01:56,640
+<i>♪ Your love's put me</i>
+<i>At the top of the world ♪</i>
+
+27
+00:02:02,760 --> 00:02:07,200
+<i>♪ Something in the wind</i>
+<i>Has learned my name ♪</i>
+
+28
+00:02:07,480 --> 00:02:12,320
+<i>♪ And it's telling me</i>
+<i>That things are not the same ♪</i>
+
+29
+00:02:12,680 --> 00:02:17,960
+<i>♪ In the leaves on the trees</i>
+<i>And the touch of the breeze ♪</i>
+
+30
+00:02:18,040 --> 00:02:22,800
+<i>♪ There's a pleasin' sense of happiness</i>
+<i>For me ♪</i>
+
+31
+00:02:23,760 --> 00:02:27,960
+<i>♪ There is only one wish</i>
+<i>On my mind ♪</i>
+
+32
+00:02:28,320 --> 00:02:33,080
+<i>♪ When this day is through</i>
+<i>I hope that I will find ♪</i>
+
+33
+00:02:33,440 --> 00:02:38,720
+<i>♪ That tomorrow will be</i>
+<i>Just the same for you and me ♪</i>
+
+34
+00:02:38,800 --> 00:02:43,520
+<i>♪ All I need will be mine</i>
+<i>If you are here ♪</i>
+
+35
+00:02:43,600 --> 00:02:49,000
+<i>♪ I'm on the top of the world</i>
+<i>Lookin' down on creation ♪</i>
+
+36
+00:02:49,080 --> 00:02:53,720
+<i>♪And the only explanation</i>
+<i>I can find ♪</i>
+
+37
+00:02:54,240 --> 00:02:59,080
+<i>♪ Is the love that I've found</i>
+<i>Ever since you've been around ♪</i>
+
+38
+00:02:59,400 --> 00:03:03,880
+<i>♪ Your love's put me</i>
+<i>At the top of the world ♪</i>
+
+39
+00:03:04,200 --> 00:03:09,640
+<i>♪ I'm on the top of the world</i>
+<i>Looking down on creation ♪</i>
+
+40
+00:03:09,720 --> 00:03:14,360
+<i>♪ And the only explanation</i>
+<i>I can find ♪</i>
+
+41
+00:03:14,800 --> 00:03:19,640
+<i>♪ Is the love that I've found</i>
+<i>Ever since you've been around ♪</i>
+
+42
+00:03:19,920 --> 00:03:24,720
+<i>♪ Your love's put me</i>
+<i>At the top of the world ♪</i>
+
+43
+00:03:32,400 --> 00:03:33,760
+[doorbell ringing]
+
+44
+00:03:35,120 --> 00:03:36,280
+-All right?
+-[Tony] Yeah.
+
+45
+00:03:41,520 --> 00:03:42,640
+[Tony sighs]
+
+46
+00:03:45,960 --> 00:03:47,160
+That's from last night.
+
+47
+00:03:47,560 --> 00:03:49,680
+And that's the last one in the house,
+so...
+
+48
+00:03:50,120 --> 00:03:52,320
+Got to sort myself out. Get better.
+
+49
+00:03:53,000 --> 00:03:54,120
+What we doing today?
+
+50
+00:03:54,200 --> 00:03:56,400
+-"Tambury's Oldest Woman."
+-Right. How old is she?
+
+51
+00:03:56,480 --> 00:03:58,680
+Hundred.
+She's got a telegram from the Queen.
+
+52
+00:03:59,840 --> 00:04:01,360
+-Are you all right?
+-Huh? Yeah.
+
+53
+00:04:02,840 --> 00:04:05,960
+[sighs] Just... feeling a bit low.
+
+54
+00:04:06,040 --> 00:04:09,280
+-Come on, mate. You were doing so well.
+-[Tony] Just feeling sorry for myself.
+
+55
+00:04:09,360 --> 00:04:10,760
+And guilty about that.
+
+56
+00:04:10,840 --> 00:04:13,640
+I meet people every day
+with worse lives than me,
+
+57
+00:04:14,240 --> 00:04:15,480
+and they get on with it.
+
+58
+00:04:16,920 --> 00:04:18,480
+I'm gonna try and be more zen.
+
+59
+00:04:19,880 --> 00:04:21,840
+I'm not going to let cunts wind me up.
+
+60
+00:04:22,360 --> 00:04:23,520
+Is that a Buddha quote?
+
+61
+00:04:25,000 --> 00:04:25,880
+Exactly.
+
+62
+00:04:27,640 --> 00:04:29,160
+How's it going with the nurse?
+
+63
+00:04:29,240 --> 00:04:30,240
+Oh, um...
+
+64
+00:04:30,840 --> 00:04:32,200
+We're just friends, so...
+
+65
+00:04:32,640 --> 00:04:34,080
+-Oh.
+-[Tony] No, it's fine.
+
+66
+00:04:34,800 --> 00:04:36,360
+She said I wasn't over Lisa.
+
+67
+00:04:37,280 --> 00:04:38,320
+She's right.
+
+68
+00:04:38,400 --> 00:04:41,200
+Well, don't miss the boat.
+She won't wait forever.
+
+69
+00:04:42,840 --> 00:04:43,960
+I still miss Lisa.
+
+70
+00:04:45,840 --> 00:04:46,920
+All the time.
+
+71
+00:04:47,320 --> 00:04:50,720
+But she wouldn't want me to,
+not like this. Not in this much pain.
+
+72
+00:04:51,200 --> 00:04:52,040
+I'm...
+
+73
+00:04:53,200 --> 00:04:54,880
+getting a bit better every day.
+
+74
+00:04:58,200 --> 00:04:59,200
+Come on.
+
+75
+00:05:02,960 --> 00:05:04,920
+[Tony] <i>How did you feel</i>
+<i>when you got the telegram?</i>
+
+76
+00:05:05,960 --> 00:05:06,880
+What?
+
+77
+00:05:06,960 --> 00:05:09,880
+[raises voice] How did you feel
+when you got the telegram from the Queen?
+
+78
+00:05:10,280 --> 00:05:12,320
+Same as I feel every other day.
+
+79
+00:05:12,720 --> 00:05:16,160
+Dreadful. In pain.
+Wishing I hadn't lived through the night.
+
+80
+00:05:17,000 --> 00:05:18,040
+The Queen, though?
+
+81
+00:05:18,800 --> 00:05:20,240
+Some butler sent this.
+
+82
+00:05:21,000 --> 00:05:24,680
+What advice would you give to someone
+to have a long life like yours?
+
+83
+00:05:25,040 --> 00:05:26,040
+Don't.
+
+84
+00:05:26,480 --> 00:05:27,920
+It's fucking awful.
+
+85
+00:05:28,360 --> 00:05:30,000
+It hurts just to be alive.
+
+86
+00:05:30,880 --> 00:05:32,560
+Here's my typical month:
+
+87
+00:05:33,320 --> 00:05:35,120
+first week, diarrhea.
+
+88
+00:05:35,640 --> 00:05:37,320
+The next three weeks?
+
+89
+00:05:37,720 --> 00:05:39,120
+I can't shit at all!
+
+90
+00:05:40,440 --> 00:05:43,080
+You must've seen a lot, though?
+A hundred years.
+
+91
+00:05:43,160 --> 00:05:47,760
+I was born in Tambury.
+I'll die in Tambury - very soon, I hope.
+
+92
+00:05:47,840 --> 00:05:49,480
+I've seen fuck-all!
+
+93
+00:05:49,880 --> 00:05:51,480
+I may as well have been a tree.
+
+94
+00:05:52,840 --> 00:05:54,600
+What do your family think of this?
+
+95
+00:05:55,440 --> 00:05:57,680
+I haven't got a family, they all died.
+
+96
+00:05:58,280 --> 00:06:00,840
+Right... Your friends here, though?
+
+97
+00:06:00,920 --> 00:06:03,000
+[exasperated sigh] They're not friends.
+
+98
+00:06:03,560 --> 00:06:04,880
+They're cunts.
+
+99
+00:06:05,320 --> 00:06:06,320
+All of them.
+
+100
+00:06:06,400 --> 00:06:09,160
+I hate every single one of them.
+
+101
+00:06:09,240 --> 00:06:12,320
+-[distant coughing]
+-And when I outlive one of them,
+
+102
+00:06:12,640 --> 00:06:15,400
+they bring a new cunt in
+to take their place.
+
+103
+00:06:16,520 --> 00:06:17,440
+Cunts!
+
+104
+00:06:20,560 --> 00:06:23,040
+-Good. Take a picture.
+-[Lenny] Yeah!
+
+105
+00:06:26,160 --> 00:06:27,200
+Er, smile.
+
+106
+00:06:28,520 --> 00:06:29,880
+-Bollocks.
+-[camera clicks]
+
+107
+00:06:30,280 --> 00:06:31,280
+[Lenny] Great.
+
+108
+00:06:34,880 --> 00:06:36,920
+-[shaver whirs]
+-[knocking on door]
+
+109
+00:06:38,520 --> 00:06:41,120
+-[Matt] You all right?
+-Hey. Is it all right if I...?
+
+110
+00:06:41,560 --> 00:06:45,120
+Just a mad rush getting out
+of the house this morning, you know.
+
+111
+00:06:46,360 --> 00:06:48,040
+I know you've been sleeping here.
+
+112
+00:06:50,120 --> 00:06:50,960
+Right.
+
+113
+00:06:51,040 --> 00:06:53,240
+Look, I'm shacked up with June now,
+
+114
+00:06:53,760 --> 00:06:56,200
+so my flat is just sitting there empty.
+
+115
+00:06:56,880 --> 00:06:59,240
+And it's council,
+so I don't want to give that up.
+
+116
+00:06:59,320 --> 00:07:01,400
+Well, you're welcome to stay there
+as long as you need.
+
+117
+00:07:01,960 --> 00:07:03,560
+That means a lot. Thanks, Lenny.
+
+118
+00:07:05,000 --> 00:07:06,160
+What happened, anyway?
+
+119
+00:07:06,640 --> 00:07:09,000
+[Matt] I don't think anything happened,
+like, specific.
+
+120
+00:07:09,400 --> 00:07:12,240
+I think she just needed a moment
+to take a deep breath and...
+
+121
+00:07:13,320 --> 00:07:15,200
+figure it all out, and, uh, yeah...
+
+122
+00:07:16,120 --> 00:07:17,600
+I'm giving her that moment.
+
+123
+00:07:19,400 --> 00:07:21,400
+-A favor for a favor?
+-Mm-hmm.
+
+124
+00:07:21,480 --> 00:07:25,400
+Getting a bit of pressure from June
+to get her kid some work experience.
+
+125
+00:07:25,480 --> 00:07:27,440
+Uh... um, we can't afford it.
+
+126
+00:07:27,520 --> 00:07:29,880
+-I'm sorry.
+-No, just work experience, no money.
+
+127
+00:07:30,320 --> 00:07:32,240
+She just wants him out of the house,
+I think.
+
+128
+00:07:32,320 --> 00:07:33,160
+Right.
+
+129
+00:07:33,640 --> 00:07:34,600
+Uh...
+
+130
+00:07:35,040 --> 00:07:36,840
+Yes, of course.
+
+131
+00:07:36,920 --> 00:07:37,920
+-Great.
+-[Matt] Yeah.
+
+132
+00:07:38,000 --> 00:07:40,320
+I'll tell June. Thanks, Matt.
+
+133
+00:07:40,400 --> 00:07:41,720
+Thank you, Lenny, yeah.
+
+134
+00:07:47,680 --> 00:07:48,560
+Hiya.
+
+135
+00:07:48,640 --> 00:07:49,840
+-[Matt] Hi.
+-You busy?
+
+136
+00:07:50,320 --> 00:07:51,360
+No, come in.
+
+137
+00:08:00,240 --> 00:08:02,720
+Sorry to hear about your marriage ending
+and all that.
+
+138
+00:08:03,800 --> 00:08:04,800
+Thanks, yeah.
+
+139
+00:08:06,720 --> 00:08:08,560
+You're a very lovely man, though.
+
+140
+00:08:10,600 --> 00:08:13,520
+-Sorry, what...?
+-Kind. Intelligent.
+
+141
+00:08:14,240 --> 00:08:15,200
+Smart.
+
+142
+00:08:16,280 --> 00:08:17,200
+'Andsome.
+
+143
+00:08:17,840 --> 00:08:18,680
+Perfect.
+
+144
+00:08:18,920 --> 00:08:20,840
+[splutters] Thanks.
+
+145
+00:08:20,920 --> 00:08:23,720
+We've kept this relationship
+completely professional until now,
+
+146
+00:08:23,800 --> 00:08:25,080
+and I appreciate that,
+
+147
+00:08:25,800 --> 00:08:28,800
+but I just want you to know
+that if you ever did make a move, I--
+
+148
+00:08:28,880 --> 00:08:29,920
+A move?
+
+149
+00:08:31,680 --> 00:08:32,840
+[Kath] Yeah, you know.
+
+150
+00:08:33,880 --> 00:08:35,040
+I've always liked you.
+
+151
+00:08:36,960 --> 00:08:39,520
+So, you know, if ever you wanted to, um...
+
+152
+00:08:40,560 --> 00:08:41,560
+meet up...
+
+153
+00:08:42,520 --> 00:08:43,560
+outside of work...
+
+154
+00:08:45,160 --> 00:08:46,320
+you know, for some fun?
+
+155
+00:08:49,680 --> 00:08:51,400
+Then... I'm up for it.
+
+156
+00:08:51,880 --> 00:08:52,880
+Are you?
+
+157
+00:09:00,200 --> 00:09:01,240
+See you later.
+
+158
+00:09:14,200 --> 00:09:15,640
+[Tony] Don't sit in my chair.
+
+159
+00:09:24,120 --> 00:09:24,960
+You all right?
+
+160
+00:09:26,200 --> 00:09:27,920
+Kath just said she likes me.
+
+161
+00:09:29,040 --> 00:09:29,960
+Good.
+
+162
+00:09:30,040 --> 00:09:31,800
+-No, like, she fancies me.
+-[sniggers]
+
+163
+00:09:32,800 --> 00:09:33,800
+What, are you 13?
+
+164
+00:09:34,200 --> 00:09:35,280
+It's awkward.
+
+165
+00:09:36,040 --> 00:09:37,160
+Don't worry about it.
+
+166
+00:09:39,120 --> 00:09:40,120
+All right.
+
+167
+00:09:40,960 --> 00:09:42,120
+What about you, you OK?
+
+168
+00:09:42,200 --> 00:09:44,440
+Yeah, I'm just trying to be more zen.
+
+169
+00:09:45,560 --> 00:09:47,400
+Wow... OK.
+
+170
+00:09:48,280 --> 00:09:49,720
+Um... Well, I tell you what,
+
+171
+00:09:49,800 --> 00:09:52,480
+you should come to the meditation class
+I go to after work.
+
+172
+00:09:52,560 --> 00:09:53,640
+Every Tuesday.
+
+173
+00:09:54,000 --> 00:09:55,200
+It's a bit of yoga,
+
+174
+00:09:55,600 --> 00:09:58,200
+a bit of... Don't shake your head,
+you haven't heard what it is yet.
+
+175
+00:09:58,280 --> 00:09:59,960
+-Yoga, a bit of philosophy...
+-Mm.
+
+176
+00:10:00,040 --> 00:10:01,720
+-...which you like, don't you?
+-Yeah.
+
+177
+00:10:01,800 --> 00:10:03,040
+Right. So, what do you think?
+
+178
+00:10:03,120 --> 00:10:04,120
+-Don't just--
+-No.
+
+179
+00:10:05,440 --> 00:10:06,560
+Come on, please?
+
+180
+00:10:07,040 --> 00:10:08,800
+I'm having a shit time as well, OK?
+
+181
+00:10:08,880 --> 00:10:11,840
+I'm alone. I'm sleeping on a floor.
+
+182
+00:10:11,920 --> 00:10:12,920
+[Tony] That's zen.
+
+183
+00:10:13,760 --> 00:10:16,320
+-Uh...
+-Like Mr. Miyagi. They love a floor.
+
+184
+00:10:17,040 --> 00:10:18,640
+"They"? You... [frustrated sigh]
+
+185
+00:10:19,000 --> 00:10:19,880
+Right.
+
+186
+00:10:22,120 --> 00:10:24,080
+-Please?
+-Oh, for fuck's sake.
+
+187
+00:10:26,000 --> 00:10:26,960
+All right.
+
+188
+00:10:27,360 --> 00:10:28,520
+-Thank you.
+-Is that it?
+
+189
+00:10:28,600 --> 00:10:30,560
+Yeah. Yes, that's...
+
+190
+00:10:31,080 --> 00:10:31,920
+-fine.
+-Good.
+
+191
+00:10:32,760 --> 00:10:34,680
+Don't tell anyone about... Kath.
+
+192
+00:10:34,760 --> 00:10:36,120
+I'd already forgotten that.
+
+193
+00:10:36,200 --> 00:10:37,240
+-Perfect.
+-All right?
+
+194
+00:10:37,320 --> 00:10:38,960
+-Yeah, good. I'm... Yeah.
+-Good.
+
+195
+00:10:41,440 --> 00:10:42,920
+<i>Don't </i>tell anyone?
+
+196
+00:10:50,040 --> 00:10:50,960
+[sighs]
+
+197
+00:10:58,080 --> 00:10:59,720
+See, all respectable again.
+
+198
+00:11:00,760 --> 00:11:03,440
+-Had a bit of bed head in the back there.
+-[Tony] Hiya.
+
+199
+00:11:03,760 --> 00:11:05,280
+-Hi.
+-Hi, Dad.
+
+200
+00:11:07,400 --> 00:11:08,440
+[Tony sighs]
+
+201
+00:11:09,040 --> 00:11:12,080
+I, uh... just interviewed
+a hundred-year-old woman.
+
+202
+00:11:12,160 --> 00:11:13,440
+-Oh, yeah?
+-Funny.
+
+203
+00:11:14,920 --> 00:11:15,760
+And, uh...
+
+204
+00:11:17,080 --> 00:11:20,160
+Lenny asked me
+how it was going with the nurse.
+
+205
+00:11:21,640 --> 00:11:24,480
+I said, uh... we're just friends 'cause...
+
+206
+00:11:26,200 --> 00:11:29,360
+you'd said I wasn't over... Lisa.
+
+207
+00:11:29,440 --> 00:11:31,560
+And did you say you agreed?
+
+208
+00:11:32,760 --> 00:11:33,760
+Yeah, course. Yeah.
+
+209
+00:11:34,960 --> 00:11:36,000
+What did he say?
+
+210
+00:11:36,080 --> 00:11:39,480
+He said I shouldn't wait around forever
+or I'll miss the boat. [chuckles]
+
+211
+00:11:40,600 --> 00:11:41,440
+Mm...
+
+212
+00:11:42,080 --> 00:11:43,080
+[Tony] So...
+
+213
+00:11:45,920 --> 00:11:47,480
+Have you not told him my name?
+
+214
+00:11:48,080 --> 00:11:48,960
+What do you mean?
+
+215
+00:11:49,040 --> 00:11:51,240
+He said, "How's it going with <i>the nurse?"</i>
+
+216
+00:11:51,640 --> 00:11:52,560
+[Tony] Uh...
+
+217
+00:11:52,640 --> 00:11:55,920
+Yeah, I'm sure I have.
+That wasn't really the point of the story.
+
+218
+00:11:56,480 --> 00:11:57,760
+-[grunts]
+-Joe?
+
+219
+00:11:58,120 --> 00:11:58,960
+What?
+
+220
+00:11:59,040 --> 00:12:00,040
+You're Joe.
+
+221
+00:12:01,360 --> 00:12:02,360
+Joe, your brother?
+
+222
+00:12:02,440 --> 00:12:03,640
+Hello, mate.
+
+223
+00:12:05,480 --> 00:12:09,240
+I do look a bit like him. I mean,
+he's been dead ten years, but still...
+
+224
+00:12:09,800 --> 00:12:10,960
+What, Joe's dead?
+
+225
+00:12:11,040 --> 00:12:12,120
+[Tony sighs]
+
+226
+00:12:12,560 --> 00:12:15,680
+Oh, that's right, yeah. Joe's dead.
+Yeah. Lovely fella.
+
+227
+00:12:17,040 --> 00:12:19,600
+So, you're Joe's boy?
+
+228
+00:12:20,600 --> 00:12:21,680
+I'm your boy, Dad.
+
+229
+00:12:22,920 --> 00:12:24,000
+Am I Joe?
+
+230
+00:12:24,080 --> 00:12:25,120
+Fuck me.
+
+231
+00:12:25,200 --> 00:12:29,000
+And just for the record, I didn't declare
+that we would just be friends.
+
+232
+00:12:29,080 --> 00:12:31,240
+When I said
+I didn't think you were over your wife,
+
+233
+00:12:31,320 --> 00:12:34,680
+I just thought it might, I don't know,
+gee you up a bit to be ready.
+
+234
+00:12:34,760 --> 00:12:36,080
+Not just say, "Do you know what?
+
+235
+00:12:36,160 --> 00:12:38,160
+That's all right.
+Let's just be friends, eh?"
+
+236
+00:12:38,240 --> 00:12:41,040
+Well, all I was doing was
+agreeing with your observation
+
+237
+00:12:41,120 --> 00:12:42,200
+that I wasn't over Lisa--
+
+238
+00:12:42,280 --> 00:12:44,480
+Do you know what? It's fine.
+Just don't worry about it.
+
+239
+00:12:44,560 --> 00:12:45,680
+-Right.
+-[nurse] You know.
+
+240
+00:12:45,760 --> 00:12:47,440
+-All right, gorgeous?
+-[nurse] Oh!
+
+241
+00:12:47,960 --> 00:12:49,040
+Hiya.
+
+242
+00:12:49,120 --> 00:12:51,560
+-[man] Where is she?
+-[nurse ]She's in her room.
+
+243
+00:12:52,160 --> 00:12:54,920
+-All right. See you later, babe.
+-[nurse chuckles]
+
+244
+00:12:57,480 --> 00:12:58,440
+Who's that?
+
+245
+00:12:58,520 --> 00:13:01,200
+Simon. He's the son
+of one of the new residents.
+
+246
+00:13:01,280 --> 00:13:02,120
+Right.
+
+247
+00:13:02,800 --> 00:13:04,000
+He's nice.
+
+248
+00:13:04,920 --> 00:13:05,920
+He winked.
+
+249
+00:13:06,760 --> 00:13:09,400
+He said, "See you later, babe,"
+and winked.
+
+250
+00:13:10,480 --> 00:13:11,320
+So?
+
+251
+00:13:11,840 --> 00:13:13,120
+So... [chuckles]
+
+252
+00:13:14,800 --> 00:13:15,840
+Right. Anyway...
+
+253
+00:13:16,840 --> 00:13:17,840
+I'd better get on.
+
+254
+00:13:19,280 --> 00:13:20,400
+See you later, babe.
+
+255
+00:13:25,160 --> 00:13:27,080
+[Tony] I feel... panicked
+
+256
+00:13:27,880 --> 00:13:28,880
+all the time.
+
+257
+00:13:29,520 --> 00:13:32,080
+Like... I'm going to do the wrong thing.
+
+258
+00:13:32,160 --> 00:13:34,680
+So... I don't do anything.
+
+259
+00:13:36,800 --> 00:13:40,200
+And that's why I think I'm going to
+blow it with the nurse, but...
+
+260
+00:13:41,480 --> 00:13:43,800
+Concentrate on getting better.
+She'll wait.
+
+261
+00:13:44,560 --> 00:13:45,680
+If you want her to.
+
+262
+00:13:46,080 --> 00:13:47,520
+I'm not sure I'm worth...
+
+263
+00:13:48,280 --> 00:13:50,240
+waiting for. I'm embarrassed...
+
+264
+00:13:50,960 --> 00:13:52,760
+that I ever acted the way I did.
+
+265
+00:13:53,720 --> 00:13:55,040
+Whatever gets you better.
+
+266
+00:13:56,360 --> 00:13:58,360
+Yeah. I'm not better, but...
+
+267
+00:13:59,280 --> 00:14:01,080
+I'm not gonna stick my head
+in the oven.
+
+268
+00:14:02,520 --> 00:14:04,320
+I doubt you know where the oven is.
+
+269
+00:14:06,600 --> 00:14:08,120
+-Good one!
+-[Anne chuckles]
+
+270
+00:14:08,800 --> 00:14:10,000
+You were in pain.
+
+271
+00:14:12,160 --> 00:14:14,240
+Yeah, that's what
+I'm embarrassed about, really.
+
+272
+00:14:14,640 --> 00:14:15,680
+Dying of cancer,
+
+273
+00:14:16,760 --> 00:14:17,880
+that's being in pain.
+
+274
+00:14:18,360 --> 00:14:19,360
+Actual pain.
+
+275
+00:14:19,800 --> 00:14:21,280
+I felt a bit sorry for myself.
+
+276
+00:14:21,840 --> 00:14:22,840
+I still do.
+
+277
+00:14:23,520 --> 00:14:24,520
+But, uh...
+
+278
+00:14:25,480 --> 00:14:26,520
+I realized that...
+
+279
+00:14:27,520 --> 00:14:29,320
+death will come soon enough, so...
+
+280
+00:14:30,280 --> 00:14:33,080
+And there's nothing to fear about it
+because...
+
+281
+00:14:35,200 --> 00:14:37,080
+you know, no feelings to worry about.
+
+282
+00:14:37,840 --> 00:14:40,000
+Not mine, anyway. Just...
+
+283
+00:14:42,080 --> 00:14:43,520
+you know, peace and quiet.
+
+284
+00:14:45,000 --> 00:14:48,880
+I am trying to work out if there's a way
+I can still carry on annoying people,
+
+285
+00:14:48,960 --> 00:14:50,440
+after I die, but I haven't...
+
+286
+00:14:50,520 --> 00:14:52,080
+-[Anne laughs]
+-I haven't cracked it yet.
+
+287
+00:14:52,160 --> 00:14:55,160
+So, I'm just gonna have to make the most
+of that when I'm alive.
+
+288
+00:14:55,720 --> 00:14:57,200
+-It's a hobby.
+-Yeah.
+
+289
+00:14:58,880 --> 00:14:59,800
+Exactly.
+
+290
+00:15:00,160 --> 00:15:02,040
+Just to arseholes, though. That's...
+
+291
+00:15:02,720 --> 00:15:04,920
+you know, I'm trying to be nice
+to the people...
+
+292
+00:15:05,960 --> 00:15:07,440
+who are nice to me, at least.
+
+293
+00:15:09,240 --> 00:15:11,000
+I realized that everyone's struggling,
+
+294
+00:15:11,080 --> 00:15:13,600
+and, um, I feel
+that I should help the people...
+
+295
+00:15:14,640 --> 00:15:15,680
+who helped me.
+
+296
+00:15:16,920 --> 00:15:21,520
+I'm actually going to a meditation...
+yoga... thing tonight.
+
+297
+00:15:22,360 --> 00:15:23,360
+It's a favor...
+
+298
+00:15:24,200 --> 00:15:25,840
+for my brother-in-law, who...
+
+299
+00:15:26,800 --> 00:15:29,240
+is separated from his wife, and...
+
+300
+00:15:30,880 --> 00:15:32,680
+he could do with the company, so...
+
+301
+00:15:33,720 --> 00:15:34,640
+you know.
+
+302
+00:15:36,040 --> 00:15:36,920
+Lovely.
+
+303
+00:15:38,280 --> 00:15:39,200
+Mm.
+
+304
+00:15:43,960 --> 00:15:45,080
+[door opens]
+
+305
+00:15:45,600 --> 00:15:46,520
+Oh...
+
+306
+00:15:46,800 --> 00:15:48,640
+Coffee. I am gasping.
+
+307
+00:15:50,880 --> 00:15:52,160
+-Come in.
+-[Roxy] What?
+
+308
+00:15:52,800 --> 00:15:53,680
+Nothing.
+
+309
+00:15:54,320 --> 00:15:56,480
+-What, me just letting myself in?
+-Well,
+
+310
+00:15:56,560 --> 00:15:58,800
+some would've knocked.
+I could've been naked.
+
+311
+00:15:59,440 --> 00:16:01,720
+Uh... I could see through the door
+you weren't naked.
+
+312
+00:16:02,440 --> 00:16:03,960
+Well, that doesn't make any sense.
+
+313
+00:16:04,080 --> 00:16:07,880
+If I had have been naked, you'd look
+through the door and see me naked.
+
+314
+00:16:07,960 --> 00:16:09,640
+Yeah, and I wouldn't have come in.
+
+315
+00:16:10,400 --> 00:16:11,920
+But you'd have seen me naked.
+
+316
+00:16:12,000 --> 00:16:13,560
+[chuckles] Wouldn't have bothered me.
+
+317
+00:16:14,400 --> 00:16:16,680
+That's all right, then.
+What would you have done?
+
+318
+00:16:17,440 --> 00:16:19,560
+-What do you mean?
+-You come to the door,
+
+319
+00:16:19,640 --> 00:16:21,840
+you see me naked, you don't come in,
+
+320
+00:16:22,960 --> 00:16:23,800
+what then?
+
+321
+00:16:24,320 --> 00:16:25,360
+I'd have knocked.
+
+322
+00:16:25,800 --> 00:16:27,880
+So, now, I'm here naked,
+
+323
+00:16:28,480 --> 00:16:32,120
+I hear a knock, I look up,
+I see you looking through at me,
+
+324
+00:16:32,200 --> 00:16:33,840
+what do you do, fucking wave?
+
+325
+00:16:34,680 --> 00:16:36,160
+[chuckling] I don't know!
+
+326
+00:16:36,240 --> 00:16:38,800
+Maybe I wouldn't knock,
+maybe I'd just sneak off.
+
+327
+00:16:39,840 --> 00:16:41,080
+Anyway...
+
+328
+00:16:41,160 --> 00:16:45,280
+why are you sat at a table naked
+like some weird Monty Python sketch?
+
+329
+00:16:45,360 --> 00:16:46,720
+That's my business.
+
+330
+00:16:46,800 --> 00:16:48,280
+My house, my rules.
+
+331
+00:16:49,880 --> 00:16:51,840
+-Do you sit at the table naked, then?
+-No.
+
+332
+00:16:51,920 --> 00:16:54,680
+I've got a dog.
+I don't want her seeing that. [sniggers]
+
+333
+00:16:59,720 --> 00:17:01,480
+What do you miss about her, though?
+
+334
+00:17:02,440 --> 00:17:04,080
+Everything. You know, I...
+
+335
+00:17:04,840 --> 00:17:07,000
+I miss her liking me.
+
+336
+00:17:07,880 --> 00:17:08,840
+Um...
+
+337
+00:17:09,360 --> 00:17:11,480
+I hate to think
+I've upset her in some way.
+
+338
+00:17:12,160 --> 00:17:14,160
+Or that she just doesn't love me anymore.
+
+339
+00:17:16,120 --> 00:17:17,040
+Um...
+
+340
+00:17:19,720 --> 00:17:20,840
+Don't worry about it.
+
+341
+00:17:24,000 --> 00:17:25,680
+What do you mean?
+
+342
+00:17:26,200 --> 00:17:27,480
+Is that advice?
+
+343
+00:17:27,560 --> 00:17:28,520
+Yeah.
+
+344
+00:17:29,200 --> 00:17:30,840
+Just don't worry about it, mate.
+
+345
+00:17:32,960 --> 00:17:35,600
+Yeah... Just not that easy, though, is it?
+[chuckles]
+
+346
+00:17:35,680 --> 00:17:39,120
+You know, it's like saying,
+"Don't worry that you're bleeding."
+
+347
+00:17:39,520 --> 00:17:41,480
+You know, just by saying that,
+it doesn't go away.
+
+348
+00:17:41,560 --> 00:17:44,400
+I was bleeding from the anus
+for a month last year
+
+349
+00:17:44,480 --> 00:17:45,920
+and I never went to the doctor.
+
+350
+00:17:47,320 --> 00:17:48,160
+Right.
+
+351
+00:17:50,200 --> 00:17:51,280
+It just went away.
+
+352
+00:17:54,920 --> 00:17:56,880
+But, I mean,
+you're the doctor in this, aren't you?
+
+353
+00:17:56,960 --> 00:17:58,480
+So are you saying
+I shouldn't go to you?
+
+354
+00:17:58,560 --> 00:18:01,160
+No, of course not.
+What I'm saying is you've got to ignore
+
+355
+00:18:01,240 --> 00:18:03,600
+worrying about her and start doing stuff.
+
+356
+00:18:03,680 --> 00:18:04,720
+[Matt] Yeah.
+
+357
+00:18:04,800 --> 00:18:07,040
+You should come out with me,
+Ratty, and the Nonce.
+
+358
+00:18:07,480 --> 00:18:09,720
+-The Nonce?
+-Real name Ian Trouton,
+
+359
+00:18:10,400 --> 00:18:13,040
+but we call him "the Nonce"
+or "Pedo Ian."
+
+360
+00:18:14,280 --> 00:18:17,720
+I mean, he's not a real kiddy fiddler.
+It's a... it's an in-joke.
+
+361
+00:18:17,800 --> 00:18:18,800
+Oh. [chuckles]
+
+362
+00:18:19,440 --> 00:18:21,800
+He fucked a dwarf once
+when he was off his head.
+
+363
+00:18:22,800 --> 00:18:23,880
+[laughs]
+
+364
+00:18:24,440 --> 00:18:26,280
+He said it was like fucking a child.
+
+365
+00:18:27,720 --> 00:18:30,840
+But legal. Although, should it be? Urgh.
+
+366
+00:18:34,800 --> 00:18:38,040
+Um... I would go to the doctor
+about your anus, by the way.
+
+367
+00:18:41,520 --> 00:18:44,000
+Hiya. Could I just use your bathroom?
+
+368
+00:18:44,080 --> 00:18:47,120
+-[sighs] All right. Upstairs.
+-Ta.
+
+369
+00:18:50,920 --> 00:18:52,040
+[Brandy whines]
+
+370
+00:18:53,240 --> 00:18:54,360
+[snaps fingers]
+
+371
+00:18:55,880 --> 00:18:58,040
+<i>All right. Come here,</i>
+<i>I want to show you something.</i>
+
+372
+00:18:58,120 --> 00:19:00,680
+<i>Tony, do you want to explain</i>
+<i>what this is, please?</i>
+
+373
+00:19:00,800 --> 00:19:02,320
+<i>Oh, um...</i>
+
+374
+00:19:02,400 --> 00:19:06,640
+<i>I'm holding a sweepstake</i>
+<i>on how long the marriage will last,</i>
+
+375
+00:19:06,720 --> 00:19:08,240
+<i>so you can bet on what you think.</i>
+
+376
+00:19:08,320 --> 00:19:11,080
+<i>Choices are: "under a month,"</i>
+<i>"one to six months,"</i>
+
+377
+00:19:11,160 --> 00:19:12,440
+<i>"six months to a year,"</i>
+
+378
+00:19:12,520 --> 00:19:15,760
+<i>"one to two years," "two to four years,"</i>
+<i>or "four to ten years."</i>
+
+379
+00:19:15,840 --> 00:19:17,520
+<i>-I put "four to ten years."</i>
+<i>-Oh, thanks.</i>
+
+380
+00:19:17,600 --> 00:19:18,680
+<i>-You're welcome.</i>
+<i>-Yeah.</i>
+
+381
+00:19:19,640 --> 00:19:21,160
+<i>I'll go "two to four" myself.</i>
+
+382
+00:19:21,240 --> 00:19:22,640
+[guffawing]
+
+383
+00:19:22,720 --> 00:19:25,520
+<i>-</i>[Tony] <i>Fivers. Give us your fiver.</i>
+<i>-</i>[Matt] <i>"Under a month," that's mine.</i>
+
+384
+00:19:29,840 --> 00:19:30,680
+[Tony] Right...
+
+385
+00:19:32,080 --> 00:19:33,080
+What's he doing?
+
+386
+00:19:34,080 --> 00:19:35,080
+Good girl.
+
+387
+00:19:40,920 --> 00:19:43,000
+Mate, I've got to go out.
+
+388
+00:19:43,080 --> 00:19:45,400
+[Pat] All right, see you later.
+I'll lock up.
+
+389
+00:19:45,760 --> 00:19:47,520
+No, you won't. Get out.
+
+390
+00:19:48,360 --> 00:19:50,520
+-[water sloshing]
+-[Tony] What the fuck?
+
+391
+00:19:54,560 --> 00:19:57,240
+Fuck me!
+I thought you were having a piss.
+
+392
+00:19:57,320 --> 00:20:00,280
+No, I've got to go out after,
+so I thought I'd have a wash.
+
+393
+00:20:00,360 --> 00:20:01,440
+[Tony] Unbelievable!
+
+394
+00:20:01,960 --> 00:20:02,960
+Get out.
+
+395
+00:20:04,240 --> 00:20:05,160
+Out!
+
+396
+00:20:06,320 --> 00:20:07,600
+Well, turn round, then!
+
+397
+00:20:08,760 --> 00:20:09,880
+Fucking hell!
+
+398
+00:20:11,120 --> 00:20:12,120
+All clean!
+
+399
+00:20:12,800 --> 00:20:16,080
+Do you know how fucking mental it is,
+a postman having a bath on his round?
+
+400
+00:20:16,480 --> 00:20:18,120
+-Why?
+-It just is.
+
+401
+00:20:18,200 --> 00:20:20,720
+There's nothing weird
+about helping out a mate.
+
+402
+00:20:20,800 --> 00:20:24,280
+I need to see a potential flat share
+later, don't I? I've been homeless.
+
+403
+00:20:24,360 --> 00:20:26,160
+Been sleeping in the depot.
+
+404
+00:20:26,240 --> 00:20:29,280
+I didn't want to turn up all scruffy,
+did I, stinking of BO?
+
+405
+00:20:29,360 --> 00:20:32,480
+Oh, this is typical.
+I try and be more chilled.
+
+406
+00:20:32,560 --> 00:20:35,200
+The reason I'm in a hurry is
+that I've got a meditation class tonight
+
+407
+00:20:35,280 --> 00:20:36,640
+to try and be more zen,
+
+408
+00:20:36,720 --> 00:20:39,520
+and then shit like this happens
+to wind me the fuck up again.
+
+409
+00:20:39,600 --> 00:20:41,760
+Don't think the Dalai Lama'd be like that,
+would he?
+
+410
+00:20:41,840 --> 00:20:43,520
+Let's see, shall we?
+Go to his house tomorrow
+
+411
+00:20:43,600 --> 00:20:46,680
+and start washing your fucking arse
+in his sink, see what he does.
+
+412
+00:20:46,760 --> 00:20:48,880
+-Is that my aftershave?
+-Yeah. Nice, innit?
+
+413
+00:20:48,960 --> 00:20:50,240
+-Fuckin' hell.
+-Expensive.
+
+414
+00:20:51,640 --> 00:20:52,480
+Out.
+
+415
+00:20:54,000 --> 00:20:55,000
+See ya, mate.
+
+416
+00:20:56,560 --> 00:20:57,480
+Prat.
+
+417
+00:21:00,720 --> 00:21:02,160
+Just wiggle it.
+
+418
+00:21:03,000 --> 00:21:05,440
+And if you want
+to get into your positions, please.
+
+419
+00:21:05,720 --> 00:21:06,600
+[Matt] Hey.
+
+420
+00:21:07,000 --> 00:21:08,800
+Hi, Matt. Hi.
+
+421
+00:21:09,320 --> 00:21:11,200
+-Simon, this is Tony. He's--
+-Welcome.
+
+422
+00:21:11,280 --> 00:21:13,520
+He's not done this before,
+so go easy on him.
+
+423
+00:21:14,840 --> 00:21:17,600
+Nothing to be scared of.
+We're a very friendly tribe.
+
+424
+00:21:18,600 --> 00:21:20,080
+-OK.
+-All right.
+
+425
+00:21:21,840 --> 00:21:22,880
+Where's your mind?
+
+426
+00:21:23,440 --> 00:21:25,160
+-Where's my...?
+-Where's your mind?
+
+427
+00:21:25,240 --> 00:21:27,320
+Don't think about it too much,
+just answer.
+
+428
+00:21:27,400 --> 00:21:29,240
+Uh... in my brain.
+
+429
+00:21:30,240 --> 00:21:31,320
+-No.
+-[Tony] No?
+
+430
+00:21:31,800 --> 00:21:32,800
+In my gut.
+
+431
+00:21:34,560 --> 00:21:36,400
+-No.
+-I don't know. Where's my mind?
+
+432
+00:21:36,800 --> 00:21:37,880
+It's in...
+
+433
+00:21:38,520 --> 00:21:40,280
+every cell of your body.
+
+434
+00:21:42,720 --> 00:21:43,680
+OK.
+
+435
+00:21:44,640 --> 00:21:46,720
+I want you to really think about that.
+
+436
+00:21:48,760 --> 00:21:49,880
+On all fours.
+
+437
+00:21:50,400 --> 00:21:52,200
+-Please.
+-OK.
+
+438
+00:21:52,840 --> 00:21:53,920
+-Shoes off, Tony.
+-No.
+
+439
+00:21:54,480 --> 00:21:55,720
+-No?
+-No.
+
+440
+00:21:57,720 --> 00:21:59,480
+-[Tony sighs]
+-[chimes tinkling]
+
+441
+00:22:04,720 --> 00:22:06,560
+So, let's start with a deep breath.
+
+442
+00:22:06,640 --> 00:22:07,800
+[inhales deeply]
+
+443
+00:22:07,880 --> 00:22:09,360
+Inhale.
+
+444
+00:22:09,440 --> 00:22:11,200
+[class inhales]
+
+445
+00:22:11,280 --> 00:22:12,600
+Lift your tailbone.
+
+446
+00:22:13,080 --> 00:22:14,840
+Heart out, push away the floor.
+
+447
+00:22:15,760 --> 00:22:19,160
+-And exhale, sigh out the pain.
+-[loud exhaling]
+
+448
+00:22:20,720 --> 00:22:22,640
+And shine your heart forward.
+
+449
+00:22:23,240 --> 00:22:25,120
+And gaze into your pelvis.
+
+450
+00:22:25,920 --> 00:22:27,880
+And look out of your third eye.
+[sniffs]
+
+451
+00:22:28,560 --> 00:22:29,800
+-You hear that?
+-Yeah, just...
+
+452
+00:22:29,880 --> 00:22:31,680
+Let's do that ten times. [Simon sniffs]
+
+453
+00:22:36,600 --> 00:22:39,560
+[Simon slurps] Ah!
+
+454
+00:22:39,680 --> 00:22:40,640
+Are you joking?
+
+455
+00:22:40,960 --> 00:22:42,600
+[slurping] Mm.
+
+456
+00:22:43,440 --> 00:22:45,560
+Green tea. Delicious.
+
+457
+00:22:45,640 --> 00:22:47,280
+-Sounds it!
+-Shh! Tony...
+
+458
+00:22:47,720 --> 00:22:48,680
+[slurping]
+
+459
+00:22:49,120 --> 00:22:50,120
+[sniffing]
+
+460
+00:22:50,200 --> 00:22:51,200
+Fucking hell.
+
+461
+00:22:51,680 --> 00:22:52,560
+You OK, Tony?
+
+462
+00:22:52,640 --> 00:22:53,680
+-Yep.
+-[Simon] Yeah?
+
+463
+00:22:54,360 --> 00:22:55,360
+OK, good.
+
+464
+00:22:55,880 --> 00:22:56,840
+[sniffs, snorts]
+
+465
+00:22:56,920 --> 00:22:58,080
+Oh, fuck!
+
+466
+00:22:58,160 --> 00:23:00,640
+-Just don't listen to it.
+-[Simon] And keep going, guys.
+
+467
+00:23:00,760 --> 00:23:01,840
+-[sniffs]
+-Got a little cold?
+
+468
+00:23:03,000 --> 00:23:04,560
+Never. No.
+
+469
+00:23:04,640 --> 00:23:07,120
+-Oh!
+-[Simon] Illness is a state of mind.
+
+470
+00:23:07,560 --> 00:23:10,440
+I don't want to feel ill,
+I don't want to feel pain.
+
+471
+00:23:10,880 --> 00:23:13,440
+[sarcastic laugh]
+You're going about it the wrong way.
+
+472
+00:23:13,520 --> 00:23:16,360
+-Please don't.
+-Any bad things that have happened to you,
+
+473
+00:23:16,840 --> 00:23:18,000
+you must've welcomed them in.
+
+474
+00:23:18,080 --> 00:23:19,880
+No. No way.
+
+475
+00:23:19,960 --> 00:23:21,320
+We have a choice. [sniffs]
+
+476
+00:23:21,400 --> 00:23:22,320
+Fuck that!
+
+477
+00:23:22,400 --> 00:23:24,280
+-Please.
+-[Tony] That's ridiculous.
+
+478
+00:23:24,360 --> 00:23:28,560
+Wind chimes? Slurping? Sniffing?
+How is that relaxing?
+
+479
+00:23:28,640 --> 00:23:29,680
+It's disgusting.
+
+480
+00:23:30,680 --> 00:23:33,520
+I'm off to get pissed out of my mind
+in every cell of my body.
+
+481
+00:23:35,360 --> 00:23:36,320
+See you next Tuesday.
+
+482
+00:23:36,400 --> 00:23:39,160
+You're not wrong there,
+you fucking snot-curdling cunt!
+
+483
+00:23:41,880 --> 00:23:43,240
+OK. Um...
+
+484
+00:23:44,040 --> 00:23:46,480
+-Everyone into plank, please.
+<i>-</i>[Matt] <i>Great.</i>
+
+485
+00:23:47,160 --> 00:23:49,880
+Thank you.
+What was that, about two minutes?
+
+486
+00:23:49,960 --> 00:23:51,280
+I don't know, I couldn't.
+
+487
+00:23:51,720 --> 00:23:53,280
+I thought you were feeling better.
+
+488
+00:23:54,560 --> 00:23:55,560
+I am now.
+
+489
+00:23:57,080 --> 00:23:59,040
+["These Days" by Jackson Browne plays]
+
+490
+00:24:10,560 --> 00:24:14,000
+♪ <i>Well, I've been out walkin' ♪</i>
+
+491
+00:24:17,240 --> 00:24:23,880
+<i>♪ I don't do that much talkin'</i>
+<i>These days ♪</i>
+
+492
+00:24:24,320 --> 00:24:31,120
+<i>♪ These days ♪</i>
+
+493
+00:24:31,760 --> 00:24:34,920
+<i>♪These days, I seem to think a lot ♪</i>
+
+494
+00:24:35,640 --> 00:24:41,840
+<i>♪ About the things that I forgot to do ♪</i>
+
+495
+00:24:42,120 --> 00:24:45,440
+<i>♪ For you ♪</i>
+
+496
+00:24:45,760 --> 00:24:51,160
+<i>♪And all the times</i>
+<i>I had the chance to... ♪</i>
+
+497
+00:24:51,240 --> 00:24:54,080
+[Tony] <i>Fucking hell, look at that!</i>
+<i>Pissed again!</i>
+
+498
+00:24:54,320 --> 00:24:56,160
+<i>-Pfft!</i>
+-[Lisa laughs]
+
+499
+00:24:56,320 --> 00:24:59,760
+<i>-Oh, like you're sober? Don't.</i>
+<i>-</i>[Tony] <i>Yeah, but I can hold my drink.</i>
+
+500
+00:25:00,960 --> 00:25:04,200
+[slurring] <i>Yeah, but you're a man,</i>
+<i>you've got a bigger liver!</i>
+
+501
+00:25:04,480 --> 00:25:06,680
+-[Tony chuckles]<i> "Lidver..."</i>
+-[Lisa giggles]
+
+502
+00:25:07,200 --> 00:25:09,880
+[Lisa] <i>When we get through two bottles</i>
+<i>of wine a night,</i>
+
+503
+00:25:09,960 --> 00:25:12,040
+<i>it's killing me quicker</i>
+<i>than it's killing you!</i>
+
+504
+00:25:12,120 --> 00:25:14,000
+[Tony] <i>Well, one of us</i>
+<i>has got to die first.</i>
+
+505
+00:25:15,000 --> 00:25:18,000
+<i>-What, so it might as well be me?</i>
+-[Tony] <i>I'll drink to that!</i>
+
+506
+00:25:18,080 --> 00:25:21,280
+<i>Oh, right. OK. Cheers.</i>
+<i>This is to me dying first.</i>
+
+507
+00:25:21,360 --> 00:25:23,800
+<i>-</i>[Tony] <i>Cheers!</i>
+<i>-Cheers. </i>[Lisa laughs]
+
+508
+00:25:28,440 --> 00:25:29,480
+[sniffles]
+

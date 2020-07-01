@@ -1,0 +1,21 @@
+1
+[Grammar] I wasn't happy. I was not happy.
+Eu não era/estava feliz.
+2
+[Grammar] You weren't here. You were not here.
+Você não estava aqui.
+3
+[Grammar] He wasn't amazing. He was not amazing.
+Ele não estava/era incrível.
+4
+[Grammar] She wasn't beautiful. She was not beautiful.
+Ela não estava/era linda.
+5
+[Grammar] It wasn't amazing. It was not amazing.
+(Algo) não estava/era incrível.
+6
+[Grammar] We weren't here. We were not here.
+Nós não estávamos aqui.
+7
+[Grammar] They weren't happy. They were not happy.
+Eles/elas não estavam/eram felizes.

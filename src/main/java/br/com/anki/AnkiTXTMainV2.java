@@ -24,13 +24,14 @@ public class AnkiTXTMainV2 {
 		String path = "\\src\\resource\\C	ursoInglesMairoVergara\\10 - Lost and Found\\part 10\\";
 		*/
 
-
-		//String fileTXTName = "\\6.txt";
+		//String fileTXTName = "\\8.txt";
 		//String path = "\\src\\resource\\CursoInglesMairoVergara\\Mar\\2 - Dead to Me\\Season 2";
 
-		String fileTXTName = "\\9.txt";
-		String path = "\\src\\resource\\CursoInglesMairoVergara\\Gramatica\\Lesson #9";
+		//String fileTXTName = "\\12.txt";
+		//String path = "\\src\\resource\\CursoInglesMairoVergara\\Gramatica\\Lesson #12";
 
+		String fileTXTName = "\\2.txt";
+		String path = "\\src\\resource\\CursoInglesMairoVergara\\Mar\\3 - After Life\\Season 1";
 
 		File file = new File(new File(".").getCanonicalPath().concat(path.concat(fileTXTName)));
 		Path pathFileTXT = Paths.get(file.getAbsolutePath());

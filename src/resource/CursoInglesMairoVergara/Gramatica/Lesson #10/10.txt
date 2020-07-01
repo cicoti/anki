@@ -1,0 +1,36 @@
+1
+[Grammar] We had a bad day.
+Nós tivemos um dia ruim.
+2
+[Grammar] You did a great job.
+Você fez um ótimo trabalho.
+3
+[Grammar] He went to jail.
+Ele foi para a cadeia/prisão.
+4
+[Grammar] I knew from the beginning.
+Eu soube desde o começo.
+5
+[Grammar] They saw a cat.
+Eles/elas viram um gato.
+6
+[Grammar] It made me laugh.
+(Algo) me fez rir.
+7
+[Grammar] I looked at you.
+Eu olhei para você.
+8
+[Grammar] You wanted more.
+Você queria mais.
+9
+[Grammar] He asked if I could drive.
+Ele perguntou se eu podia dirigir.
+10
+[Grammar] We tried many times.
+Nós tentamos muitas vezes.
+11
+[Grammar] They stopped at a good place.
+Eles/elas pararam em um bom local.
+12
+[Grammar] It needed to be fixed.
+(Algo) precisava ser consertado.

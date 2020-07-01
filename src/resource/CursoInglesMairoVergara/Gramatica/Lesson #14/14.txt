@@ -1,0 +1,36 @@
+1
+[Grammar] Did we have a bad day?
+Nós tivemos um dia ruim?
+2
+[Grammar] Did he go to jail?
+Ele foi para a cadeira/prisão?
+3
+[Grammar] Did I know from the beginning?
+Eu soube desde o começo?
+4
+[Grammar] Did you do a great job?
+Você fez um ótimo trabalho?
+5
+[Grammar] Did they see a cat?
+Eles/elas viram um gato?
+6
+[Grammar] Did it make me laugh?
+(Algo) me fez rir?
+7
+[Grammar] Did I look at you?
+Eu olhei para você?
+8
+[Grammar] Did you want more?
+Você queria mais?
+9
+[Grammar] Did he ask if I could drive?
+Ele perguntou se eu podia dirigir?
+10
+[Grammar] Did we try many times?
+Nós tentamos muitas vezes?
+11
+[Grammar] Did they stop at a good place?
+Eles/elas pararam em um bom local?
+12
+[Grammar] Did it need to be fixed?
+(Algo) precisava ser consertado?

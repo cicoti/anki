@@ -1,0 +1,21 @@
+1
+[Grammar] Was I happy?
+Eu era/estava feliz?
+2
+[Grammar] Were you here?
+Você estava aqui?
+3
+[Grammar] Was he amazing?
+Ele estava/era incrível?
+4
+[Grammar] Was she beautiful?
+Ela estava/era linda?
+5
+[Grammar] Was it amazing?
+(Algo) estava/era incrível?
+6
+[Grammar] Were we here?
+Nós estávamos aqui?
+7
+[Grammar] Were they happy?
+Eles/elas estavam/eram felizes?

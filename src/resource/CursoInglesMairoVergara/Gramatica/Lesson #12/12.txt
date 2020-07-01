@@ -1,0 +1,36 @@
+1
+[Grammar] He looked at me.
+Ele olhou para mim.
+2
+[Grammar] I asked a question.
+Eu perguntei uma questão. (Eu fiz uma pergunta.)
+3
+[Grammar] We stopped helping them.
+Nós paramos de ajudá-los.
+4
+[Grammar] They liked me.
+Eles/elas gostaram de mim.
+5
+[Grammar] I wanted a new car.
+Eu queria um novo carro.
+6
+[Grammar] He needed help.
+Ele precisava de ajuda.
+7
+[Grammar] We visited my parents.
+Nós visitamos os meus pais.
+8
+[Grammar] I hated him.
+Eu odiava ele.
+9
+[Grammar] I tried my best.
+Eu tentei o meu melhor.
+10
+[Grammar] They agreed with us.
+Eles concordaram conosco.
+11
+[Grammar] She closed her eyes.
+Ela fechou os olhos.
+12
+[Grammar] We played hide and seek.
+Nós brincamos de esconde-esconde.

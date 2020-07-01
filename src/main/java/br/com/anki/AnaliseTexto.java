@@ -14,9 +14,9 @@ public class AnaliseTexto {
 
 	public static void main(String[] args) throws IOException {
 
-		String path = "D:\\silvio\\projetos\\AutomatizarAnki\\git\\anki\\src\\resource\\CursoInglesMairoVergara\\Mar\\2 - Dead to Me\\Season 2";
-		//String fileTXTName = "\\Dead to Me - 1x07 - I Can Handle It.HDTV.AMRAP.en.srt";
-		String fileTXTName = "\\6.srt";
+		//String path = "D:\\silvio\\projetos\\AutomatizarAnki\\git\\anki\\src\\resource\\CursoInglesMairoVergara\\Mar\\2 - Dead to Me\\Season 2";
+		String path = "D:\\silvio\\projetos\\AutomatizarAnki\\git\\anki\\src\\resource\\CursoInglesMairoVergara\\Mar\\3 - After Life\\Season 1";
+		String fileTXTName = "\\2.srt";
 
 		Path pathFileTXT = Paths.get(path.concat(fileTXTName));
 		byte[] bytes = Files.readAllBytes(pathFileTXT);
